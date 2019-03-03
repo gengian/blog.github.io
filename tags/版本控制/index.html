@@ -74,7 +74,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '7.0.0',
-    sidebar: {"position":"right // 靠右放置","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"left // 靠左放置","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false,"dimmer":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -96,13 +96,17 @@
 
 
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="古之立大事者，不惟有超世之才，亦必有坚忍不拔之志">
+<meta name="keywords" content="Ian, Ian` Blog">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Ian`s Blog">
 <meta property="og:url" content="https://sunai.net/tags/版本控制/index.html">
 <meta property="og:site_name" content="Ian`s Blog">
+<meta property="og:description" content="古之立大事者，不惟有超世之才，亦必有坚忍不拔之志">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ian`s Blog">
+<meta name="twitter:description" content="古之立大事者，不惟有超世之才，亦必有坚忍不拔之志">
 
 
 
@@ -169,7 +173,7 @@
     
   
 
-  <div class="container sidebar-position-right // 靠右放置 ">
+  <div class="container sidebar-position-left // 靠左放置 ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -186,7 +190,7 @@
     </div>
     
       
-        <p class="site-subtitle">古之立大事者，不惟有超世之才，亦必有坚忍不拔之志</p>
+        <h1 class="site-subtitle" itemprop="description">古之立大事者，不惟有超世之才，亦必有坚忍不拔之志</h1>
       
     
     
@@ -220,6 +224,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
@@ -237,8 +243,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">2</span></a>
 
   </li>
         
@@ -254,8 +262,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">2</span></a>
 
   </li>
         
@@ -271,8 +281,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">2</span></a>
 
   </li>
 
@@ -363,8 +375,8 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>版本控制<small>标签</small>
-        </h1>
+        <h2>版本控制<small>标签</small>
+        </h2>
       </div>
 
       
@@ -373,7 +385,7 @@
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
           <a class="post-title-link" href="/2019/02/28/版本控制系统TOP10/" itemprop="url">
             
@@ -381,7 +393,7 @@
             
           </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated" datetime="2019-02-28T11:02:59+08:00" content="2019-02-28">
@@ -433,7 +445,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Ian Geng">
             
               <p class="site-author-name" itemprop="name">Ian Geng</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">古之立大事者，不惟有超世之才，亦必有坚忍不拔之志</p>
           </div>
 
           
@@ -1047,6 +1059,9 @@
   
 
   
+  <script src="/js/src/js.cookie.js?v=7.0.0"></script>
+  <script src="/js/src/scroll-cookie.js?v=7.0.0"></script>
+
 
   
 
