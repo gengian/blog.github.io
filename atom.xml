@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-03-04T06:16:23.257Z</updated>
+  <updated>2019-03-04T06:36:10.809Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL8.x在windows下安装</title>
+    <link href="https://sunai.net/2019/03/04/MySQL8-x%E5%9C%A8windows%E4%B8%8B%E5%AE%89%E8%A3%85/"/>
+    <id>https://sunai.net/2019/03/04/MySQL8-x在windows下安装/</id>
+    <published>2019-03-04T06:21:19.000Z</published>
+    <updated>2019-03-04T06:36:10.809Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;MySQL 8.x 安装步骤&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在mysql-8.0.11-winx64根路径下新建 my.ini配置文件及data文件夹：&lt;/p&gt;
+&lt;p&gt; my.ini
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://sunai.net/categories/Java/"/>
+    
+      <category term="Spring" scheme="https://sunai.net/categories/Java/Spring/"/>
+    
+      <category term="ORM框架" scheme="https://sunai.net/categories/Java/Spring/ORM%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="数据库" scheme="https://sunai.net/categories/Java/Spring/ORM%E6%A1%86%E6%9E%B6/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="大数据" scheme="https://sunai.net/categories/Java/Spring/ORM%E6%A1%86%E6%9E%B6/%E6%95%B0%E6%8D%AE%E5%BA%93/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+      <category term="tag1" scheme="https://sunai.net/tags/tag1/"/>
+    
+      <category term="tag2" scheme="https://sunai.net/tags/tag2/"/>
+    
+  </entry>
   
   <entry>
     <title>Oracles删除用户及其数据</title>

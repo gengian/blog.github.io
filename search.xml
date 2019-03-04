@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[MySQL8.x在windows下安装]]></title>
+    <url>%2F2019%2F03%2F04%2FMySQL8-x%E5%9C%A8windows%E4%B8%8B%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[MySQL 8.x 安装步骤 在mysql-8.0.11-winx64根路径下新建 my.ini配置文件及data文件夹： my.ini （配置文件） data文件夹（用于存放数据库文件） my.ini 内容如下 [mysqld] # 设置3306端口 port=3306 # 设置mysql的安装目录 basedir=E:\\mysql-5.7.22-winx64 # 设置mysql数据库的数据的存放目录 datadir=E:\\mysql-5.7.22-winx64\\data # 允许最大连接数 max_connections=200 # 允许连接失败的次数。这是为了防止有人从该主机试图攻击数据库系统 max_connect_errors=10 # 服务端使用的字符集默认为UTF8 character-set-server=utf8 # 创建新表时将使用的默认存储引擎 default-storage-engine=INNODB [mysql] # 设置mysql客户端默认字符集 default-character-set=utf8 [client] # 设置mysql客户端连接服务端时默认使用的端口 port=3306 default-character-set=utf8 在Windows的Path中添加 mysql环境变量：E:\mysql-8.0.11-winx64\bin 以管理员的身份打开cmd窗口跳转路径到E:\mysql-8.0.11-winx64\bin 初始化命令 mysqld --initialize --user=mysql --console (记住一定要进行初始化，很多人不进行初始化，就出现了1067错误，怎么弄都搞不定) 初始化完成之后，会生成一个临时密码（请记住，用于登陆root用户登陆） 接着就是输入 mysqld -install 添加MySQL服务 启动mysql服务： net start mysql 以root用户及临时密码登陆MySQL mysql -uroot -p 修改用户密码： ALTER USER root@localhost IDENTIFIED BY ‘mysql’; 注： 处理Navicat连接mysql报错：2059 的处理方法：是因为新版mysql的加密策略（caching_sha2_password）不兼容Navicat的加密策略造成的使用老版的mysql加密策略重新修改密码即可。命令： ALTER USER &apos;root&apos;@&apos;localhost&apos; IDENTIFIED WITH mysql_native_password BY &apos;mysql&apos;; 至此，已完美安装MySQL数据库。]]></content>
+      <categories>
+        <category>Java</category>
+        <category>Spring</category>
+        <category>ORM框架</category>
+        <category>数据库</category>
+        <category>大数据</category>
+      </categories>
+      <tags>
+        <tag>tag1</tag>
+        <tag>tag2</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Oracles删除用户及其数据]]></title>
     <url>%2F2019%2F03%2F04%2FOracles%E5%88%A0%E9%99%A4%E7%94%A8%E6%88%B7%E5%8F%8A%E5%85%B6%E6%95%B0%E6%8D%AE%2F</url>
     <content type="text"><![CDATA[在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除： sqlplus / as sysdba drop user user_name cascade; 加了cascade就可以把用户连带的数据全部删掉。]]></content>
