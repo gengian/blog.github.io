@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除： sqlplus / as sysdba drop user user_name cascade; 加了cascade就可以把用户连带的数据全部删掉。">
-<meta name="keywords" content="Oracle">
+  <meta name="description" content="打开CMD窗口，已管理员登陆： sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;A">
+<meta name="keywords" content="Oracle,字符集修改">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Oracle删除用户及其数据">
-<meta property="og:url" content="https://sunai.net/2019/03/04/Oracle删除用户及其数据/index.html">
+<meta property="og:title" content="Oracle修改字符集">
+<meta property="og:url" content="https://sunai.net/2019/03/04/Oracle修改字符集/index.html">
 <meta property="og:site_name" content="Ian`s Blog">
-<meta property="og:description" content="在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除： sqlplus / as sysdba drop user user_name cascade; 加了cascade就可以把用户连带的数据全部删掉。">
+<meta property="og:description" content="打开CMD窗口，已管理员登陆： sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;A">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-04T06:41:03.210Z">
+<meta property="og:updated_time" content="2019-03-04T07:11:48.113Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Oracle删除用户及其数据">
-<meta name="twitter:description" content="在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除： sqlplus / as sysdba drop user user_name cascade; 加了cascade就可以把用户连带的数据全部删掉。">
+<meta name="twitter:title" content="Oracle修改字符集">
+<meta name="twitter:description" content="打开CMD窗口，已管理员登陆： sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;A">
 
 
 
@@ -116,7 +116,7 @@
 
 
 
-  <link rel="canonical" href="https://sunai.net/2019/03/04/Oracle删除用户及其数据/">
+  <link rel="canonical" href="https://sunai.net/2019/03/04/Oracle修改字符集/">
 
 
 
@@ -126,7 +126,7 @@
   };
 </script>
 
-  <title>Oracle删除用户及其数据 | Ian`s Blog</title>
+  <title>Oracle修改字符集 | Ian`s Blog</title>
   
 
 
@@ -366,7 +366,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://sunai.net/2019/03/04/Oracle删除用户及其数据/">
+    <link itemprop="mainEntityOfPage" href="https://sunai.net/2019/03/04/Oracle修改字符集/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ian Geng">
@@ -383,7 +383,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Oracle删除用户及其数据
+          <h2 class="post-title" itemprop="name headline">Oracle修改字符集
 
               
             
@@ -409,7 +409,7 @@
                 
               
 
-              <time title="创建时间：2019-03-04 14:10:57 / 修改时间：14:41:03" itemprop="dateCreated datePublished" datetime="2019-03-04T14:10:57+08:00">2019-03-04</time>
+              <time title="创建时间：2019-03-04 15:06:25 / 修改时间：15:11:48" itemprop="dateCreated datePublished" datetime="2019-03-04T15:06:25+08:00">2019-03-04</time>
             
 
             
@@ -451,8 +451,8 @@
             
               
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/2019/03/04/Oracle删除用户及其数据/#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2019/03/04/Oracle删除用户及其数据/" itemprop="commentCount"></span>
+                <a href="/2019/03/04/Oracle修改字符集/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2019/03/04/Oracle修改字符集/" itemprop="commentCount"></span>
                 </a>
               
             
@@ -487,10 +487,26 @@
       
 
       
-        <p>在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除：</p>
+        <p>打开CMD窗口，已管理员登陆：</p>
 <pre><code>sqlplus / as sysdba
-drop user user_name cascade;
-</code></pre><p>加了cascade就可以把用户连带的数据全部删掉。</p>
+</code></pre><p>查看服务器端字符集</p>
+<pre><code>SQL &gt; select * from V$NLS_PARAMETERS
+</code></pre><p>若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，<br>然后执行以下命令:</p>
+<pre><code>SQL&gt;shutdown immediate
+
+SQL&gt;STARTUP MOUNT
+SQL&gt;ALTER SYSTEM ENABLE RESTRICTED SESSION;
+SQL&gt;ALTER SYSTEM SET JOB_QUEUE_PROCESSES=0;
+SQL&gt;ALTER SYSTEM SET AQ_TM_PROCESSES=0;
+SQL&gt;ALTER DATABASE OPEN;
+</code></pre><hr>
+<pre><code>SQL&gt;ALTER DATABASE CHARACTER SET ZHS16GBK;
+</code></pre><p>ERROR at line 1:ORA-12721: operation cannot execute when other sessions are active</p>
+<p>若出现上面的错误，使用下面的办法进行修改，使用INTERNAL_USE可以跳过超集的检查：</p>
+<pre><code>SQL&gt;ALTER DATABASE CHARACTER SET INTERNAL_USE ZHS16GBK;
+SQL&gt;SHUTDOWN IMMEDIATE
+SQL&gt;STARTUP
+</code></pre><p>至此，字符集修改完毕。</p>
 
       
     </div>
@@ -524,6 +540,8 @@ drop user user_name cascade;
           
             <a href="/tags/Oracle/" rel="tag"># Oracle</a>
           
+            <a href="/tags/字符集修改/" rel="tag"># 字符集修改</a>
+          
         </div>
       
 
@@ -535,8 +553,8 @@ drop user user_name cascade;
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/03/04/Oracle数据备份及导入/" rel="next" title="Oracle数据备份及导入">
-                <i class="fa fa-chevron-left"></i> Oracle数据备份及导入
+              <a href="/2019/03/04/MySQL8-x在windows下安装/" rel="next" title="MySQL8.x在windows下安装">
+                <i class="fa fa-chevron-left"></i> MySQL8.x在windows下安装
               </a>
             
           </div>
@@ -544,10 +562,6 @@ drop user user_name cascade;
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/03/04/MySQL8-x在windows下安装/" rel="prev" title="MySQL8.x在windows下安装">
-                MySQL8.x在windows下安装 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
