@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-03-03T14:47:37.501Z</updated>
+  <updated>2019-03-04T02:22:29.461Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oracle数据备份及导入</title>
+    <link href="https://sunai.net/2019/03/04/Oracle%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD%E5%8F%8A%E5%AF%BC%E5%85%A5/"/>
+    <id>https://sunai.net/2019/03/04/Oracle数据备份及导入/</id>
+    <published>2019-03-04T01:00:50.000Z</published>
+    <updated>2019-03-04T02:22:29.461Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文就Oracle数据库的备份及导入，基于
+        
+      
+    
+    </summary>
+    
+      <category term="Oracle" scheme="https://sunai.net/categories/Oracle/"/>
+    
+    
+      <category term="Oracle" scheme="https://sunai.net/tags/Oracle/"/>
+    
+      <category term="数据库" scheme="https://sunai.net/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>版本控制系统TOP10</title>
