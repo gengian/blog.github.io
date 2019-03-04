@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Oracle修改字符集]]></title>
     <url>%2F2019%2F03%2F04%2FOracle%E4%BF%AE%E6%94%B9%E5%AD%97%E7%AC%A6%E9%9B%86%2F</url>
-    <content type="text"><![CDATA[打开CMD窗口，已管理员登陆： sqlplus / as sysdba 查看服务器端字符集 SQL &gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&gt;shutdown immediate SQL&gt;STARTUP MOUNT SQL&gt;ALTER SYSTEM ENABLE RESTRICTED SESSION; SQL&gt;ALTER SYSTEM SET JOB_QUEUE_PROCESSES=0; SQL&gt;ALTER SYSTEM SET AQ_TM_PROCESSES=0; SQL&gt;ALTER DATABASE OPEN; SQL&gt;ALTER DATABASE CHARACTER SET ZHS16GBK; ERROR at line 1:ORA-12721: operation cannot execute when other sessions are active 若出现上面的错误，使用下面的办法进行修改，使用INTERNAL_USE可以跳过超集的检查： SQL&gt;ALTER DATABASE CHARACTER SET INTERNAL_USE ZHS16GBK; SQL&gt;SHUTDOWN IMMEDIATE SQL&gt;STARTUP 至此，字符集修改完毕。]]></content>
+    <content type="text"><![CDATA[打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&gt;shutdown immediate SQL&gt;STARTUP MOUNT SQL&gt;ALTER SYSTEM ENABLE RESTRICTED SESSION; SQL&gt;ALTER SYSTEM SET JOB_QUEUE_PROCESSES=0; SQL&gt;ALTER SYSTEM SET AQ_TM_PROCESSES=0; SQL&gt;ALTER DATABASE OPEN; SQL&gt;ALTER DATABASE CHARACTER SET ZHS16GBK; ERROR at line 1:ORA-12721: operation cannot execute when other sessions are active 若出现上面的错误，使用下面的办法进行修改，使用INTERNAL_USE可以跳过超集的检查： SQL&gt;ALTER DATABASE CHARACTER SET INTERNAL_USE ZHS16GBK; SQL&gt;SHUTDOWN IMMEDIATE SQL&gt;STARTUP 至此，字符集修改完毕。]]></content>
       <categories>
         <category>Oracle</category>
       </categories>
