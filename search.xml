@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[一些实用的工具书]]></title>
+    <url>%2F2019%2F03%2F06%2F%E4%B8%80%E4%BA%9B%E5%AE%9E%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7%E4%B9%A6%2F</url>
+    <content type="text"><![CDATA[一些实用的IT工具书籍推荐给大家，有兴趣可参阅！ 书籍链接（链接永久有效）： 链接：https://pan.baidu.com/s/1WZgbzoQNehwh5Ld1ODmglw提取码：6qqm]]></content>
+      <categories>
+        <category>书籍</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+        <tag>IT工具书</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Oracle修改字符集]]></title>
     <url>%2F2019%2F03%2F04%2FOracle%E4%BF%AE%E6%94%B9%E5%AD%97%E7%AC%A6%E9%9B%86%2F</url>
     <content type="text"><![CDATA[打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&gt;shutdown immediate SQL&gt;STARTUP MOUNT SQL&gt;ALTER SYSTEM ENABLE RESTRICTED SESSION; SQL&gt;ALTER SYSTEM SET JOB_QUEUE_PROCESSES=0; SQL&gt;ALTER SYSTEM SET AQ_TM_PROCESSES=0; SQL&gt;ALTER DATABASE OPEN; SQL&gt;ALTER DATABASE CHARACTER SET ZHS16GBK; ERROR at line 1:ORA-12721: operation cannot execute when other sessions are active 若出现上面的错误，使用下面的办法进行修改，使用INTERNAL_USE可以跳过超集的检查： SQL&gt;ALTER DATABASE CHARACTER SET INTERNAL_USE ZHS16GBK; SQL&gt;SHUTDOWN IMMEDIATE SQL&gt;STARTUP 至此，字符集修改完毕。]]></content>
