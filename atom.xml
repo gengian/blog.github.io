@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-08-25T08:14:29.027Z</updated>
+  <updated>2019-08-25T08:25:48.053Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>求两个数之和</title>
+    <link href="https://sunai.net/2019/08/25/two-num-sum/"/>
+    <id>https://sunai.net/2019/08/25/two-num-sum/</id>
+    <published>2019-08-25T08:22:49.000Z</published>
+    <updated>2019-08-25T08:25:48.053Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot; title=&quot;问题：&quot;&gt;&lt;/a&gt;问题：&lt;/h2&gt;&lt;p&gt;给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个
+        
+      
+    
+    </summary>
+    
+      <category term="java面试" scheme="https://sunai.net/categories/java%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="两数之和" scheme="https://sunai.net/tags/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo执行部署项目到Git时报错10054的解决办法</title>
