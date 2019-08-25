@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo执行部署项目到Git时报错10054的解决办法]]></title>
     <url>%2F2019%2F08%2F25%2Fhexo-deploy-errno10054%2F</url>
-    <content type="text"><![CDATA[hexo执行部署项目到Git时报错10054的解决办法 进入到当前项目的.deploy_git目录下，打开Git_bash 执行以下命令对config进行配置 git config http.sslVerify &quot;false&quot;]]></content>
+    <content type="text"><![CDATA[hexo执行部署项目到Git时报错10054的解决办法执行 hexo g &amp;&amp; hexo d 部署项目报错：error: RPC failed;curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054 fatal: the remote end hu 进入到当前项目的.deploy_git目录下，打开Git_bash 执行以下命令对config进行配置 git config http.sslVerify &quot;false&quot;]]></content>
       <categories>
         <category>hexo问题</category>
       </categories>
