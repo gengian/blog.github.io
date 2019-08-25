@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[hexo-deploy-errno10054]]></title>
+    <title><![CDATA[hexo执行部署项目到Git时报错10054的解决办法]]></title>
     <url>%2F2019%2F08%2F25%2Fhexo-deploy-errno10054%2F</url>
     <content type="text"><![CDATA[hexo执行部署项目到Git时报错10054的解决办法 进入到当前项目的.deploy_git目录下，打开Git_bash 执行以下命令对config进行配置 git config http.sslVerify &quot;false&quot;]]></content>
       <categories>

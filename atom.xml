@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-08-25T08:11:42.753Z</updated>
+  <updated>2019-08-25T08:12:31.680Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo-deploy-errno10054</title>
+    <title>hexo执行部署项目到Git时报错10054的解决办法</title>
     <link href="https://sunai.net/2019/08/25/hexo-deploy-errno10054/"/>
     <id>https://sunai.net/2019/08/25/hexo-deploy-errno10054/</id>
     <published>2019-08-25T08:08:12.000Z</published>
-    <updated>2019-08-25T08:11:42.753Z</updated>
+    <updated>2019-08-25T08:12:31.680Z</updated>
     
     <summary type="html">
     
