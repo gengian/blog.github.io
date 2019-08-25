@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-08-25T07:55:42.723Z</updated>
+  <updated>2019-08-25T08:11:42.753Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo-deploy-errno10054</title>
+    <link href="https://sunai.net/2019/08/25/hexo-deploy-errno10054/"/>
+    <id>https://sunai.net/2019/08/25/hexo-deploy-errno10054/</id>
+    <published>2019-08-25T08:08:12.000Z</published>
+    <updated>2019-08-25T08:11:42.753Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;hexo执行部署项目到Git时报错10054的解决办法&quot;&gt;&lt;a href=&quot;#hexo执行部署项目到Git时报错10054的解决办法&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="hexo问题" scheme="https://sunai.net/categories/hexo%E9%97%AE%E9%A2%98/"/>
+    
+    
+      <category term="hexo" scheme="https://sunai.net/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>double-arrays-middle-data</title>
