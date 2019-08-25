@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="求两个数组的中位数`/**  给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays 著作权归领扣网络所有。商业转载请联系官方授权，非商">
+  <meta name="description" content="求两个数组的中位数/**  给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays 著作权归领扣网络所有。商业转载请联系官方授权，非商业">
 <meta name="keywords" content="求两个数组的中位数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="求两个数组的中位数">
 <meta property="og:url" content="https://sunai.net/2019/08/25/double-arrays-middle-data/index.html">
 <meta property="og:site_name" content="Ian`s Blog">
-<meta property="og:description" content="求两个数组的中位数`/**  给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays 著作权归领扣网络所有。商业转载请联系官方授权，非商">
+<meta property="og:description" content="求两个数组的中位数/**  给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays 著作权归领扣网络所有。商业转载请联系官方授权，非商业">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-25T08:13:02.372Z">
+<meta property="og:updated_time" content="2019-08-25T08:16:01.299Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="求两个数组的中位数">
-<meta name="twitter:description" content="求两个数组的中位数`/**  给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays 著作权归领扣网络所有。商业转载请联系官方授权，非商">
+<meta name="twitter:description" content="求两个数组的中位数/**  给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。 请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays 著作权归领扣网络所有。商业转载请联系官方授权，非商业">
 
 
 
@@ -409,7 +409,7 @@
                 
               
 
-              <time title="创建时间：2019-08-25 15:52:08 / 修改时间：16:13:02" itemprop="dateCreated datePublished" datetime="2019-08-25T15:52:08+08:00">2019-08-25</time>
+              <time title="创建时间：2019-08-25 15:52:08 / 修改时间：16:16:01" itemprop="dateCreated datePublished" datetime="2019-08-25T15:52:08+08:00">2019-08-25</time>
             
 
             
@@ -487,7 +487,7 @@
       
 
       
-        <h2 id="求两个数组的中位数"><a href="#求两个数组的中位数" class="headerlink" title="求两个数组的中位数"></a>求两个数组的中位数</h2><p>`<br>/**</p>
+        <h2 id="求两个数组的中位数"><a href="#求两个数组的中位数" class="headerlink" title="求两个数组的中位数"></a>求两个数组的中位数</h2><p><code><br>/**</code></p>
 <ul>
 <li>给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。</li>
 <li>请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。</li>
@@ -497,7 +497,7 @@
 <li>@param nums1</li>
 <li>@param nums2</li>
 <li>@return<br>*/<br>public static double findMedianSortedArrays0(int[] nums1, int[] nums2) {<br> int[] arr = Arrays.copyOf(nums1,nums1.length +nums2.length);<br> for (int i = nums1.length; i &lt; arr.length; i++) {<pre><code>arr[i] = nums2[i-nums1.length];
-</code></pre> }<br> Arrays.sort(arr);<br> int len = arr.length;<br> return arr.length%2==0?(arr[len/2-1]+arr[len/2])/2.0:arr[len/2]*1.0;<br>}<br>`</li>
+</code></pre> }<br> Arrays.sort(arr);<br> int len = arr.length;<br> return arr.length%2==0?(arr[len/2-1]+arr[len/2])/2.0:arr[len/2]*1.0;<br>}<br></li>
 </ul>
 <hr>
 <p>原创</p>
