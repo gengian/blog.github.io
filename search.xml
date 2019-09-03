@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Oracle使用IMP/EXP导库]]></title>
+    <url>%2F2019%2F09%2F03%2Foracle-imp-exp%2F</url>
+    <content type="text"><![CDATA[Oracle使用IMP/EXP导库1、创建用户及授权（以DBA身份登录） 语法： create user 用户名 identified by 密码 default tablespace 表空间名 temporary tablespace temp; grant connect,resource,dba to 用户名; /*授权用户*/ 2、imp/exp Oracle的导库支持远程导库到本地，非常方便（CMD窗口） 语法，导出使用 exp: exp 用户名/密码@数据库IP:端口/数据库名 file=路径\文件.dmp owner=用户名 eg: exp user1/user123@8.8.8.8:1521/orcl file=D:\data.dmp owner=user1 导入使用 imp： imp 用户名/密码@数据库IP:端口/数据库名 file=路径\文件.dmp full=y eg: imp user2/user2123@127.0.0.1:1521/orcl file=D:\data.dmp full=y]]></content>
+      <categories>
+        <category>Oracle</category>
+      </categories>
+      <tags>
+        <tag>Oracle</tag>
+        <tag>imp/exp</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[求两个数之和]]></title>
     <url>%2F2019%2F08%2F25%2Ftwo-num-sum%2F</url>
     <content type="text"><![CDATA[问题：给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。 示例: 给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] + nums[1] = 2 + 7 = 9所以返回 [0, 1] 1234567891011121314151617/** * 求数组中两个数之和为目标值的下标数组 * @param nums * @param target * @return */public static int[] twoSum(int[] nums, int target) &#123; Map&lt;Integer, Integer&gt; map = new HashMap&lt;&gt;(); for (int i = 0; i &lt; nums.length; i++) &#123; int ano = target - nums[i]; if (map.containsKey(ano)) &#123; return new int[] &#123; map.get(ano), i &#125;; &#125; map.put(nums[i], i); &#125; return null;&#125; 1234567891011121314151617181920/** * 借鉴 * 求数组中两个数之和为目标值的下标数组（最高效的算法） * @param nums * @param target * @return */public static int[] twoSum0(int[] nums, int target) &#123; int max = 2047; int[] temp = new int[max + 1]; int diffPos; for (int i = 0; i &lt; nums.length; i++) &#123; diffPos = (target - nums[i]) &amp; max; if (temp[diffPos] != 0) &#123; return new int[]&#123;temp[diffPos] - 1, i&#125;; &#125; temp[nums[i] &amp; max] = i + 1; &#125; return null;&#125;]]></content>

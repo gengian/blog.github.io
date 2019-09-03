@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-08-25T08:25:48.053Z</updated>
+  <updated>2019-09-03T08:12:10.199Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oracle使用IMP/EXP导库</title>
+    <link href="https://sunai.net/2019/09/03/oracle-imp-exp/"/>
+    <id>https://sunai.net/2019/09/03/oracle-imp-exp/</id>
+    <published>2019-09-03T08:06:16.000Z</published>
+    <updated>2019-09-03T08:12:10.199Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Oracle使用IMP-EXP导库&quot;&gt;&lt;a href=&quot;#Oracle使用IMP-EXP导库&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Oracle" scheme="https://sunai.net/categories/Oracle/"/>
+    
+    
+      <category term="Oracle" scheme="https://sunai.net/tags/Oracle/"/>
+    
+      <category term="imp/exp" scheme="https://sunai.net/tags/imp-exp/"/>
+    
+  </entry>
   
   <entry>
     <title>求两个数之和</title>
