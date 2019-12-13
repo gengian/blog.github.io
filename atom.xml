@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2019-09-04T08:07:57.732Z</updated>
+  <updated>2019-12-13T07:45:17.203Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu屏幕适配</title>
+    <link href="https://sunai.net/2019/12/13/Ubuntu%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D/"/>
+    <id>https://sunai.net/2019/12/13/Ubuntu屏幕适配/</id>
+    <published>2019-12-13T07:32:42.000Z</published>
+    <updated>2019-12-13T07:45:17.203Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;使用VMware安装的ubuntu虚拟机的显示屏幕太小，可以通过在VMware里安装“VMware Tool”插件解决，安装步骤记录一下。 &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;安装VMware
+        
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://sunai.net/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://sunai.net/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="https://sunai.net/tags/Ubuntu/"/>
+    
+      <category term="屏幕适配" scheme="https://sunai.net/tags/%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>git关联的的文件没有绿色、红色小图标</title>
