@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo permalinks 永久链接设置]]></title>
+    <url>%2F1355307112.html</url>
+    <content type="text"><![CDATA[永久链接（Permalinks）您可以在 _config.yml 配置中调整网站的永久链接或者在每篇文章的 Front-matter 中指定。 变量除了下列变量外，您还可使用 Front-matter 中的所有属性。 变量 描述:year 文章的发表年份（4 位数）:month 文章的发表月份（2 位数）:i_month 文章的发表月份（去掉开头的零）:day 文章的发表日期 (2 位数):i_day 文章的发表日期（去掉开头的零）:hour 文章发表时的小时 (2 位数):minute 文章发表时的分钟 (2 位数):title 文件名称:post_title 文章标题:id 文章 ID (not persistent across cache reset):category 分类。如果文章没有分类，则是 default_category 配置信息。 您可在 permalink_defaults 参数下调整永久链接中各变量的默认值： 12permalink_defaults: lang: en 示例假设 source/_posts 文件夹中有个 hello-world.md，包含以下内容： 12345title: Hello Worlddate: 2013-07-14 17:01:34categories:- foo- bar 参数 结果 123:year/:month/:day/:title/ 2013/07/14/hello-world/:year-:month-:day-:title.html 2013-07-14-hello-world.html:category/:title/ foo/bar/hello-world/ 多语种支持若要建立一个多语种的网站，您可修改 new_post_name 和 permalink 参数，如下： 12new_post_name: :lang/:title.mdpermalink: :lang/:title/ 当您建立新文章时，文章会被储存到： 12$ hexo new "Hello World" --lang tw# =&gt; source/_posts/tw/Hello-World.md 而网址会是： http://localhost:4000/tw/hello-world/ 以上是hexo官方对永久链接的指导。但该链接说实话，很不实用，也不好看。下面推荐一个插件（abbrlink），实现链接的简洁化 安装插件npm install hexo-abbrlink --save 配置修改根目录站点配置文件config.yml，改为： 1234permalink: :posts/abbrlink.html # 此处可以自己设置，也可以直接使用 :/abbrlinkabbrlink: alg: crc32 #算法： crc16(default) and crc32 rep: hex #进制： dec(default) and hex 官方样例： 12345678910crc16 &amp; hexhttps://post.zz173.com/posts/66c8.htmlcrc16 &amp; dechttps://post.zz173.com/posts/65535.htmlcrc32 &amp; hexhttps://post.zz173.com/posts/8ddf18fb.htmlcrc32 &amp; dechttps://post.zz173.com/posts/1690090958.html]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo博客NexT主题搭建Valine评论系统]]></title>
     <url>%2F678611036.html</url>
     <content type="text"><![CDATA[为何使用Valine为什么使用ValineHexo博客的NexT主题下提供了多种评论服务： 畅言 来比力（livere） Gittalk Valine Disqus（墙） Gitment（墙） 博客本来就是个小圈子，大部分博客不是为了赚取流量的，只是想实实在在的记录和分享一些东西，算是在自媒体流量满天飞的时代的一股清流？我所希望的评论系统是一个不需要登录的，可以随意留言的（当然，反对一切广告和垃圾信息），复杂的登录会降低80%留言的欲望，而我蛮希望自己写的东西得到别人的认可，哪怕是质疑，也是交流的一种形式。 Valine的配置和使用注册Leancloud账号 在NexT主题配置config.yml文件中修改Valine配置 12345678910111213valine: enable: true # 设置为true开启 appid: ---- # 填写leancloud应用的appid appkey: ---- # 填写leancloud应用的appkey notify: true # 开启新留言邮件通知 verify: false # 不开启验证 placeholder: 留下你的爪印吧~ # 留言框里的文字 avatar: mp # 头像 guest_info: nick,mail # 留言框需要的访客信息输入 pageSize: 10 # 单页留言条数 language: # language, available values: en, zh-cn visitor: false # 访客记录我已经在配置中开启过了，这里设false comment_count: true # 在首页显示评论数量]]></content>
@@ -8,8 +19,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Valine</tag>
         <tag>Hexo</tag>
+        <tag>Valine</tag>
       </tags>
   </entry>
   <entry>

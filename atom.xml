@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2020-03-10T14:46:04.081Z</updated>
+  <updated>2020-03-10T15:22:05.762Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo permalinks 永久链接设置</title>
+    <link href="https://sunai.net/1355307112.html"/>
+    <id>https://sunai.net/1355307112.html</id>
+    <published>2020-03-10T15:10:28.000Z</published>
+    <updated>2020-03-10T15:22:05.762Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;永久链接（Permalinks）&quot;&gt;&lt;a href=&quot;#永久链接（Permalinks）&quot; class=&quot;headerlink&quot; title=&quot;永久链接（Permalinks）&quot;&gt;&lt;/a&gt;永久链接（Permalinks）&lt;/h1&gt;&lt;p&gt;您可以在
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://sunai.net/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://sunai.net/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo博客NexT主题搭建Valine评论系统</title>
     <link href="https://sunai.net/678611036.html"/>
     <id>https://sunai.net/678611036.html</id>
     <published>2020-03-10T14:34:03.000Z</published>
-    <updated>2020-03-10T14:46:04.081Z</updated>
+    <updated>2020-03-10T14:46:21.780Z</updated>
     
     <summary type="html">
     
@@ -38,9 +64,9 @@
       <category term="Hexo" scheme="https://sunai.net/categories/Hexo/"/>
     
     
-      <category term="Valine" scheme="https://sunai.net/tags/Valine/"/>
-    
       <category term="Hexo" scheme="https://sunai.net/tags/Hexo/"/>
+    
+      <category term="Valine" scheme="https://sunai.net/tags/Valine/"/>
     
   </entry>
   
