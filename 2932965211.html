@@ -352,73 +352,212 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://sunai.net/2932965211.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ian Geng">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ian`s Blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h2 class="post-title" itemprop="name headline">Oracle删除用户及其数据
-
-</h2>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <p>在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除：</p>
+          <h2 class="post-title" itemprop="name headline">Oracle删除用户及其数据
+
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-03-04 14:10:57" itemprop="dateCreated datePublished" datetime="2019-03-04T14:10:57+08:00">2019-03-04</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-03-10 21:03:36" itemprop="dateModified" datetime="2020-03-10T21:03:36+08:00">2020-03-10</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/" itemprop="url" rel="index"><span itemprop="name">Oracle</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>在Oracle数据库中，有时候会用删除用户及数据操作。而Oracle中数据是依赖于用户的，因此要删除用户及该用户下的所有数据，需要执行以下命令级联删除：</p>
 <pre><code>sqlplus / as sysdba
 drop user user_name cascade;
 </code></pre><p>加了cascade就可以把用户连带的数据全部删掉。</p>
 
-        
-      </div>
-      
-      
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Oracle/" rel="tag"># Oracle</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/3552476894.html" rel="next" title="Oracle数据备份及导入">
+                <i class="fa fa-chevron-left"></i> Oracle数据备份及导入
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/3285825706.html" rel="prev" title="MySQL8.x在windows下安装">
+                MySQL8.x在windows下安装 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
           </div>
           
-
-  
-    <div class="comments" id="gitalk-container">
-    </div>
-	
-	<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-	<div id="gitalk-container"></div>
-	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-	<script type="text/javascript">
-		var gitalk = new Gitalk({
-			clientID: '<%= theme.gitalk.clientID %>',
-        clientSecret: '<%= theme.gitalk.clientSecret %>',
-        id: window.location.pathname,
-        repo: '<%= theme.gitalk.repo %>',
-        owner: '<%= theme.gitalk.owner %>',
-        admin: '<%= theme.gitalk.admin %>'
-    })
-    gitalk.render('gitalk-container')
-</script>
 
   
 
@@ -771,32 +910,6 @@ drop user user_name cascade;
   
   
 
-
-  
-    
-
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
-
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-
-
-<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
-
-<script>
-  var gitalk = new Gitalk({
-    clientID: '66657c4ec5ec54298902',
-    clientSecret: 'd47452d6ceafcef3c113c8bd2881eb01b9802362',
-    repo: 'https://github.com/gengian/gengian.github.io',
-    owner: 'gengian',
-    admin: [''],
-    id: md5(location.pathname),
-    distractionFreeMode: 'true'
-  });
-  gitalk.render('gitalk-container');
-</script>
 
   
 
