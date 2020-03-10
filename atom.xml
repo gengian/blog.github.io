@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2020-03-10T15:22:05.762Z</updated>
+  <updated>2020-03-10T15:33:11.577Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>算法之求一个数是否是2的N次幂</title>
+    <link href="https://sunai.net/3275302967.html"/>
+    <id>https://sunai.net/3275302967.html</id>
+    <published>2020-03-10T15:27:10.000Z</published>
+    <updated>2020-03-10T15:33:11.577Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;如题，如何判断一个整数是否是2的N次方，我能想到的方法有两个&lt;/p&gt;
+&lt;p&gt;1.一直除2，看最后是否等于1.（效率低下）&lt;/p&gt;
+&lt;p&gt;2.转换成2进制，看是否是这个样子的：1,10,100,1000,10000，就是除了最高位是1，其他都是0，或者说只有一个1.&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="算法" scheme="https://sunai.net/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="算法" scheme="https://sunai.net/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="2的N次幂" scheme="https://sunai.net/tags/2%E7%9A%84N%E6%AC%A1%E5%B9%82/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo permalinks 永久链接设置</title>
     <link href="https://sunai.net/1355307112.html"/>
     <id>https://sunai.net/1355307112.html</id>
     <published>2020-03-10T15:10:28.000Z</published>
-    <updated>2020-03-10T15:22:05.762Z</updated>
+    <updated>2020-03-10T15:22:29.368Z</updated>
     
     <summary type="html">
     

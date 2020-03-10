@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[算法之求一个数是否是2的N次幂]]></title>
+    <url>%2F3275302967.html</url>
+    <content type="text"><![CDATA[如题，如何判断一个整数是否是2的N次方，我能想到的方法有两个 1.一直除2，看最后是否等于1.（效率低下） 2.转换成2进制，看是否是这个样子的：1,10,100,1000,10000，就是除了最高位是1，其他都是0，或者说只有一个1. 以4(100) 7(0111) 8(1000)为例 4 &amp; 3 –&gt; 100 &amp; 011 = 07 &amp; 6 –&gt; 0111 &amp; 0110 != 08 &amp; 7 –&gt; 1000 &amp; 0111 = 0 即 如果 m &amp; (m - 1) == 0，则m是2的n次方。 123public static boolean isPowerByTwo(int i)&#123; return (i &gt; 0) &amp;&amp; ((i &amp; (i - 1)) == 0);&#125;]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>2的N次幂</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo permalinks 永久链接设置]]></title>
     <url>%2F1355307112.html</url>
     <content type="text"><![CDATA[永久链接（Permalinks）您可以在 _config.yml 配置中调整网站的永久链接或者在每篇文章的 Front-matter 中指定。 变量除了下列变量外，您还可使用 Front-matter 中的所有属性。 变量 描述:year 文章的发表年份（4 位数）:month 文章的发表月份（2 位数）:i_month 文章的发表月份（去掉开头的零）:day 文章的发表日期 (2 位数):i_day 文章的发表日期（去掉开头的零）:hour 文章发表时的小时 (2 位数):minute 文章发表时的分钟 (2 位数):title 文件名称:post_title 文章标题:id 文章 ID (not persistent across cache reset):category 分类。如果文章没有分类，则是 default_category 配置信息。 您可在 permalink_defaults 参数下调整永久链接中各变量的默认值： 12permalink_defaults: lang: en 示例假设 source/_posts 文件夹中有个 hello-world.md，包含以下内容： 12345title: Hello Worlddate: 2013-07-14 17:01:34categories:- foo- bar 参数 结果 123:year/:month/:day/:title/ 2013/07/14/hello-world/:year-:month-:day-:title.html 2013-07-14-hello-world.html:category/:title/ foo/bar/hello-world/ 多语种支持若要建立一个多语种的网站，您可修改 new_post_name 和 permalink 参数，如下： 12new_post_name: :lang/:title.mdpermalink: :lang/:title/ 当您建立新文章时，文章会被储存到： 12$ hexo new "Hello World" --lang tw# =&gt; source/_posts/tw/Hello-World.md 而网址会是： http://localhost:4000/tw/hello-world/ 以上是hexo官方对永久链接的指导。但该链接说实话，很不实用，也不好看。下面推荐一个插件（abbrlink），实现链接的简洁化 安装插件npm install hexo-abbrlink --save 配置修改根目录站点配置文件config.yml，改为： 1234permalink: :posts/abbrlink.html # 此处可以自己设置，也可以直接使用 :/abbrlinkabbrlink: alg: crc32 #算法： crc16(default) and crc32 rep: hex #进制： dec(default) and hex 官方样例： 12345678910crc16 &amp; hexhttps://post.zz173.com/posts/66c8.htmlcrc16 &amp; dechttps://post.zz173.com/posts/65535.htmlcrc32 &amp; hexhttps://post.zz173.com/posts/8ddf18fb.htmlcrc32 &amp; dechttps://post.zz173.com/posts/1690090958.html]]></content>
