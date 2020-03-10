@@ -74,7 +74,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '7.0.0',
-    sidebar: {"position":"right // 靠右放置","display":"always","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false,"dimmer":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="Ian`s Blog">
 <meta property="og:description" content="打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;AL">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-04T07:14:29.100Z">
+<meta property="og:updated_time" content="2020-03-10T13:03:36.671Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Oracle修改字符集">
 <meta name="twitter:description" content="打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;AL">
@@ -174,7 +174,7 @@
     
   
 
-  <div class="container sidebar-position-right // 靠右放置 page-post-detail">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -352,142 +352,32 @@
 
   <div id="posts" class="posts-expand">
     
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://sunai.net/3371473992.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Ian Geng">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ian`s Blog">
-    </span>
-
     
+    
+    <div class="post-block page">
       <header class="post-header">
 
-        
-        
-          <h2 class="post-title" itemprop="name headline">Oracle修改字符集
+<h2 class="post-title" itemprop="name headline">Oracle修改字符集
 
-              
-            
-          </h2>
-        
+</h2>
 
-        <div class="post-meta">
-          <span class="post-time">
+<div class="post-meta">
+  
+  
 
-            
-            
-            
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
 
-              
-                
-              
+</div>
 
-              <time title="创建时间：2019-03-04 15:06:25 / 修改时间：15:14:29" itemprop="dateCreated datePublished" datetime="2019-03-04T15:06:25+08:00">2019-03-04</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/" itemprop="url" rel="index"><span itemprop="name">Oracle</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-              
-                <span class="post-meta-item-text">评论数：</span>
-                <a href="/3371473992.html#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="3371473992.html" itemprop="commentCount"></span>
-                </a>
-              
-            
-          
-
-          
-          
-
-          
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon">
-            <i class="fa fa-eye"></i>
-             阅读次数： 
-            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
-            </span>
-          
-
-          
-
-          
-
-        </span></div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+</header>
 
       
       
-
       
-        <p>打开CMD窗口，以管理员登陆</p>
+      <div class="post-body">
+        
+        
+          <p>打开CMD窗口，以管理员登陆</p>
 <pre><code>sqlplus / as sysdba
 </code></pre><p>查看服务器端字符集</p>
 <pre><code>SQL &gt; select * from V$NLS_PARAMETERS
@@ -508,71 +398,19 @@ SQL&gt;SHUTDOWN IMMEDIATE
 SQL&gt;STARTUP
 </code></pre><p>至此，字符集修改完毕。</p>
 
+        
+      </div>
+      
+      
       
     </div>
-
     
 
+
+
     
     
     
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/Oracle/" rel="tag"># Oracle</a>
-          
-            <a href="/tags/字符集修改/" rel="tag"># 字符集修改</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/3285825706.html" rel="next" title="MySQL8.x在windows下安装">
-                <i class="fa fa-chevron-left"></i> MySQL8.x在windows下安装
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/886577256.html" rel="prev" title="一些实用的工具书">
-                一些实用的工具书 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
   </div>
 
 
@@ -580,9 +418,23 @@ SQL&gt;STARTUP
           
 
   
-    <div class="comments" id="comments">
-      <div id="SOHUCS"></div>
+    <div class="comments" id="gitalk-container">
     </div>
+	
+	<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+	<div id="gitalk-container"></div>
+	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+	<script type="text/javascript">
+		var gitalk = new Gitalk({
+			clientID: '<%= theme.gitalk.clientID %>',
+        clientSecret: '<%= theme.gitalk.clientSecret %>',
+        id: window.location.pathname,
+        repo: '<%= theme.gitalk.repo %>',
+        owner: '<%= theme.gitalk.owner %>',
+        admin: '<%= theme.gitalk.admin %>'
+    })
+    gitalk.render('gitalk-container')
+</script>
 
   
 
@@ -934,25 +786,33 @@ SQL&gt;STARTUP
 
   
   
+
+
   
-  <script>
-  (function() {
-    var appid = 'cyu76Xxqu';
-    var conf = '1be82a39b44fd85f9d55915c80c7c40d';
-    var width = window.innerWidth || document.documentElement.clientWidth;
-    if (width < 960) {
-      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
-    }
-    else {
-      var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})});
-    }
-  })();
-  </script>
-  <script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: '66657c4ec5ec54298902',
+    clientSecret: 'd47452d6ceafcef3c113c8bd2881eb01b9802362',
+    repo: 'https://github.com/gengian/gengian.github.io',
+    owner: 'gengian',
+    admin: [''],
+    id: md5(location.pathname),
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
 
   
 
