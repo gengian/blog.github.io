@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2020-03-10T15:33:56.213Z</updated>
+  <updated>2020-03-10T17:51:04.361Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo中Next主题添加CNZZ统计</title>
+    <link href="https://sunai.net/3725037260.html"/>
+    <id>https://sunai.net/3725037260.html</id>
+    <published>2020-03-10T16:31:02.000Z</published>
+    <updated>2020-03-10T17:51:04.361Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://passport.umeng.com/login?appId=cnzz&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;友盟+ 传送门&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;配置站点信息&quot;&gt;&lt;a href=&quot;#配置站点信息&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://sunai.net/categories/Hexo/"/>
+    
+    
+      <category term="CNZZ" scheme="https://sunai.net/tags/CNZZ/"/>
+    
+  </entry>
   
   <entry>
     <title>算法之求一个数是否是2的N次幂</title>

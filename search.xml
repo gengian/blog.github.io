@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo中Next主题添加CNZZ统计]]></title>
+    <url>%2F3725037260.html</url>
+    <content type="text"><![CDATA[友盟+ 传送门 配置站点信息登录之后，选择右上角的添加站点，配置好你的站点信息 获取代码获取友盟提供给你的代码，友盟提供了很多的样式，随便复制一份就行。 接下来将代码复制到\themes\next\layout\_third-party\analytics\cnzz-analytics.swig中将原来的代码全部删除，复制下面的代码： ps：如无文件，请自行创建 123456789101112&#123;% if theme.cnzz_siteid %&#125;&lt;div&gt;&lt;!-- 填写你的友盟代码 --&gt;&lt;script type="text/javascript"&gt; var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_12'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D12%2show%3Dpic' type='text/javascript'%3E%3C/script%3E"));&lt;/script&gt;&lt;!-- 你的友盟代码 end --&gt;&lt;/div&gt;&#123;% endif %&#125; 修改配置文件添加了代码之后，还需要修改next的配置文件才能够生效。注意是主题配置文件打开\themes\next目录下的_config.yml，按ctrl + F搜索CNZZ,找到之后将注释的内容打开，并设置成true，注意空格 CNZZ count1cnzz_siteid: true 这样就可以成功的使用CNZZ进行统计了。建议使用hexo s在本地测试，看是否有问题再部署上去。]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>CNZZ</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[算法之求一个数是否是2的N次幂]]></title>
     <url>%2F3275302967.html</url>
     <content type="text"><![CDATA[如题，如何判断一个整数是否是2的N次方，我能想到的方法有两个 1.一直除2，看最后是否等于1.（效率低下） 2.转换成2进制，看是否是这个样子的：1,10,100,1000,10000，就是除了最高位是1，其他都是0，或者说只有一个1. 以4(100) 7(0111) 8(1000)为例 4 &amp; 3 –&gt; 100 &amp; 011 = 07 &amp; 6 –&gt; 0111 &amp; 0110 != 08 &amp; 7 –&gt; 1000 &amp; 0111 = 0 即 如果 m &amp; (m - 1) == 0，则m是2的n次方。 123public static boolean isPowerByTwo(int i)&#123; return (i &gt; 0) &amp;&amp; ((i &amp; (i - 1)) == 0);&#125;]]></content>
