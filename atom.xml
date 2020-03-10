@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sunai.net/"/>
-  <updated>2020-03-10T17:51:04.361Z</updated>
+  <updated>2020-03-10T18:21:02.971Z</updated>
   <id>https://sunai.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 本地插入图片</title>
+    <link href="https://sunai.net/311364607.html"/>
+    <id>https://sunai.net/311364607.html</id>
+    <published>2020-03-10T17:54:37.000Z</published>
+    <updated>2020-03-10T18:21:02.971Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://sunai.net/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://sunai.net/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo中Next主题添加CNZZ统计</title>
@@ -558,35 +586,6 @@ drop user user_name
       <category term="Linux" scheme="https://sunai.net/tags/Linux/"/>
     
       <category term="Java环境搭建" scheme="https://sunai.net/tags/Java%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基于springMVC的文件上传实现</title>
-    <link href="https://sunai.net/4276529206.html"/>
-    <id>https://sunai.net/4276529206.html</id>
-    <published>2018-04-29T12:01:38.000Z</published>
-    <updated>2020-03-10T13:03:36.676Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;写在前面的话：    ​&lt;br&gt;在执行问价上传前的准备工作&lt;br&gt;搭建SSM（Spring、SpringMVC、Mybatis）框架的web项目（这里不作阐述，后续会补上这部分的内容）​&lt;br&gt;
-        
-      
-    
-    </summary>
-    
-      <category term="SpringMVC" scheme="https://sunai.net/categories/SpringMVC/"/>
-    
-    
-      <category term="文件上传" scheme="https://sunai.net/tags/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/"/>
-    
-      <category term="SpringMVC" scheme="https://sunai.net/tags/SpringMVC/"/>
     
   </entry>
   
