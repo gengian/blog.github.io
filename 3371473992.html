@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="本文就Oracle数据库的备份及导入，基于 impdp/expdp命令进行导入/导出操作。  注：impdp/expdp命令只适用于数据库所在服务器的主机上操作（即本地操作）   CMD命令窗口以管理员身份登录Oracle数据库  sqlplus / as sysdba  创建表空间（建议存放数据、索引、二进制文件的表空间分开管理）  CREATE SMALLFILE TABLESPACE 表空间">
-<meta name="keywords" content="Oracle,数据库">
+  <meta name="description" content="打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;AL">
+<meta name="keywords" content="Oracle,字符集修改">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Oracle数据备份及导入">
-<meta property="og:url" content="https://sunai.net/ck7lvet6c0007t4lgts6uyq6g.html">
+<meta property="og:title" content="Oracle修改字符集">
+<meta property="og:url" content="https://sunai.net/3371473992.html">
 <meta property="og:site_name" content="Ian`s Blog">
-<meta property="og:description" content="本文就Oracle数据库的备份及导入，基于 impdp/expdp命令进行导入/导出操作。  注：impdp/expdp命令只适用于数据库所在服务器的主机上操作（即本地操作）   CMD命令窗口以管理员身份登录Oracle数据库  sqlplus / as sysdba  创建表空间（建议存放数据、索引、二进制文件的表空间分开管理）  CREATE SMALLFILE TABLESPACE 表空间">
+<meta property="og:description" content="打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;AL">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-04T02:22:29.461Z">
+<meta property="og:updated_time" content="2019-03-04T07:14:29.100Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Oracle数据备份及导入">
-<meta name="twitter:description" content="本文就Oracle数据库的备份及导入，基于 impdp/expdp命令进行导入/导出操作。  注：impdp/expdp命令只适用于数据库所在服务器的主机上操作（即本地操作）   CMD命令窗口以管理员身份登录Oracle数据库  sqlplus / as sysdba  创建表空间（建议存放数据、索引、二进制文件的表空间分开管理）  CREATE SMALLFILE TABLESPACE 表空间">
+<meta name="twitter:title" content="Oracle修改字符集">
+<meta name="twitter:description" content="打开CMD窗口，以管理员登陆 sqlplus / as sysdba 查看服务器端字符集 SQL &amp;gt; select * from V$NLS_PARAMETERS 若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，然后执行以下命令: SQL&amp;gt;shutdown immediate  SQL&amp;gt;STARTUP MOUNT SQL&amp;gt;AL">
 
 
 
@@ -116,7 +116,7 @@
 
 
 
-  <link rel="canonical" href="https://sunai.net/ck7lvet6c0007t4lgts6uyq6g.html">
+  <link rel="canonical" href="https://sunai.net/3371473992.html">
 
 
 
@@ -126,7 +126,7 @@
   };
 </script>
 
-  <title>Oracle数据备份及导入 | Ian`s Blog</title>
+  <title>Oracle修改字符集 | Ian`s Blog</title>
   
 
 
@@ -366,7 +366,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://sunai.net/ck7lvet6c0007t4lgts6uyq6g.html">
+    <link itemprop="mainEntityOfPage" href="https://sunai.net/3371473992.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ian Geng">
@@ -383,7 +383,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Oracle数据备份及导入
+          <h2 class="post-title" itemprop="name headline">Oracle修改字符集
 
               
             
@@ -409,7 +409,7 @@
                 
               
 
-              <time title="创建时间：2019-03-04 09:00:50 / 修改时间：10:22:29" itemprop="dateCreated datePublished" datetime="2019-03-04T09:00:50+08:00">2019-03-04</time>
+              <time title="创建时间：2019-03-04 15:06:25 / 修改时间：15:14:29" itemprop="dateCreated datePublished" datetime="2019-03-04T15:06:25+08:00">2019-03-04</time>
             
 
             
@@ -451,8 +451,8 @@
             
               
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/ck7lvet6c0007t4lgts6uyq6g.html#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="ck7lvet6c0007t4lgts6uyq6g.html" itemprop="commentCount"></span>
+                <a href="/3371473992.html#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="3371473992.html" itemprop="commentCount"></span>
                 </a>
               
             
@@ -487,45 +487,26 @@
       
 
       
-        <p>本文就Oracle数据库的备份及导入，基于 impdp/expdp命令进行导入/导出操作。</p>
-<blockquote>
-<p>注：impdp/expdp命令只适用于数据库所在服务器的主机上操作（即本地操作）</p>
-</blockquote>
-<ol>
-<li><p>CMD命令窗口以管理员身份登录Oracle数据库</p>
-<p> sqlplus / as sysdba</p>
-</li>
-<li><p>创建表空间（建议存放数据、索引、二进制文件的表空间分开管理）</p>
-<p> CREATE SMALLFILE TABLESPACE 表空间名_data DATAFILE ‘D:\app\gengzhy\oradata\orcl\表空间名_data.dbf’ SIZE 2048M<br> AUTOEXTEND ON NEXT 10000K MAXSIZE UNLIMITED LOGGING EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO ;</p>
-<p> CREATE SMALLFILE TABLESPACE 表空间名_index DATAFILE ‘D:\app\gengzhy\oradata\orcl\表空间名_index.dbf’ SIZE 1024M<br> AUTOEXTEND ON NEXT 10000K MAXSIZE UNLIMITED LOGGING EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO ;</p>
-<p> CREATE SMALLFILE TABLESPACE 表空间名_blob DATAFILE ‘D:\app\gengzhy\oradata\orcl\表空间名_blob.dbf’ SIZE 1024M<br> AUTOEXTEND ON NEXT 10000K MAXSIZE UNLIMITED LOGGING EXTENT MANAGEMENT LOCAL SEGMENT SPACE MANAGEMENT AUTO ;</p>
-</li>
-<li><p>创建用户并授权</p>
-<p> create user test identified by test default tablespace 表空间名_data temporary<br> tablespace temp;</p>
-<p> grant connect,resource,dba to test;</p>
-</li>
-<li><p>创建本地存放导出数据文件（.dmp）文件夹，并将读写权限授予 test用户</p>
-<p> create or replace directory db_dir as ‘D:\db_dir’；</p>
-<p> grant read,write on directory db_dir to test;（新建用户，执行数据导入操作用）</p>
-<p> grant read,write on directory db_dir to scott;（已有用户，执行数据导出操作用）</p>
-</li>
-</ol>
-<ol start="5">
-<li><p>执行数据库导出操作</p>
-<p> expdp scott/scott@orcl directory=db_dir dumpfile=xxx.dmp logfile=xxx.log </p>
-</li>
-<li><p>执行数据库导入操作</p>
-<p> impdp test/test@orcl directory=db_dir dumpfile=xxx.dmp logfile=xxx.log remap_schema=scott:test transform=oid:n</p>
-</li>
-</ol>
-<blockquote>
-<p>注：<br>1、REMAP_SCHEMA 的语法： </p>
-<p>remap_schema=scott:test ————（scott表示被导出数据时的用户名，test表示导入时的用户名）</p>
-<p>2、RANSFORM的语法是 transform=segment_attributes|storage|oid|pctspace：Y/N:object_type</p>
-<p>transform取值oid:n的含义就是对oid信息不进行加载,重新进行生成。</p>
-</blockquote>
-<hr>
-<p>【本文为原创】</p>
+        <p>打开CMD窗口，以管理员登陆</p>
+<pre><code>sqlplus / as sysdba
+</code></pre><p>查看服务器端字符集</p>
+<pre><code>SQL &gt; select * from V$NLS_PARAMETERS
+</code></pre><p>若此时数据库服务器已启动，则先执行 SHUTDOWN IMMEDIATE 命令关闭数据库服务器，<br>然后执行以下命令:</p>
+<pre><code>SQL&gt;shutdown immediate
+
+SQL&gt;STARTUP MOUNT
+SQL&gt;ALTER SYSTEM ENABLE RESTRICTED SESSION;
+SQL&gt;ALTER SYSTEM SET JOB_QUEUE_PROCESSES=0;
+SQL&gt;ALTER SYSTEM SET AQ_TM_PROCESSES=0;
+SQL&gt;ALTER DATABASE OPEN;
+</code></pre><hr>
+<pre><code>SQL&gt;ALTER DATABASE CHARACTER SET ZHS16GBK;
+</code></pre><p>ERROR at line 1:ORA-12721: operation cannot execute when other sessions are active</p>
+<p>若出现上面的错误，使用下面的办法进行修改，使用INTERNAL_USE可以跳过超集的检查：</p>
+<pre><code>SQL&gt;ALTER DATABASE CHARACTER SET INTERNAL_USE ZHS16GBK;
+SQL&gt;SHUTDOWN IMMEDIATE
+SQL&gt;STARTUP
+</code></pre><p>至此，字符集修改完毕。</p>
 
       
     </div>
@@ -551,7 +532,7 @@
           
             <a href="/tags/Oracle/" rel="tag"># Oracle</a>
           
-            <a href="/tags/数据库/" rel="tag"># 数据库</a>
+            <a href="/tags/字符集修改/" rel="tag"># 字符集修改</a>
           
         </div>
       
@@ -564,8 +545,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/ck7lvet87001lt4lgzoflxeia.html" rel="next" title="版本控制系统TOP10">
-                <i class="fa fa-chevron-left"></i> 版本控制系统TOP10
+              <a href="/3285825706.html" rel="next" title="MySQL8.x在windows下安装">
+                <i class="fa fa-chevron-left"></i> MySQL8.x在windows下安装
               </a>
             
           </div>
@@ -574,8 +555,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/ck7lvet650002t4lgmskgwk2p.html" rel="prev" title="Oracle删除用户及其数据">
-                Oracle删除用户及其数据 <i class="fa fa-chevron-right"></i>
+              <a href="/886577256.html" rel="prev" title="一些实用的工具书">
+                一些实用的工具书 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
