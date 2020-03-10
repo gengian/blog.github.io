@@ -96,18 +96,20 @@
 
 
 
-  <meta name="description" content="最近在安装Oracle后，使用plsql连接时遇到很多问题，特意整理出来，以示后续类似问题不用手忙脚乱！   安装好Oracle和PLSQLDeveloper后，PLSQLDeveloper登录时没有可选数据库和连接的问题（Win10） 在选择未登录情况下进入plsql客户端，依次进入：首选项&amp;gt;连接 发现 Oracle主目录以及oci库的值是空的。这是需要先安装Oracle client，">
-<meta name="keywords" content="plsql连接Oracle">
+  <meta name="description" content="第一部分 Linux 常用命令集 centos 开关机命令： 关机：shutdown -h now  立刻关机（管理员权限）：shutdown -r now  立刻重启：reboot       更新yum仓库： yum -y update 删除文件： rm -f 文件名 查看某个文件： rpm -qa | grep 文件名 打开一个文件： vi(m) 文件名  键入i进入编辑模式  按下Esc键">
+<meta name="keywords" content="Linux,Java环境搭建">
 <meta property="og:type" content="article">
-<meta property="og:title" content="PLSQL无法连接Oracle的系列问题解决方法">
-<meta property="og:url" content="https://sunai.net/2019/03/20/pplsql无法连接Oracle的系列问题解决方法/index.html">
+<meta property="og:title" content="Linux下部署Javaweb运行环境">
+<meta property="og:url" content="https://sunai.net/ck7lvet610001t4lgwqp2hg7g.html">
 <meta property="og:site_name" content="Ian`s Blog">
-<meta property="og:description" content="最近在安装Oracle后，使用plsql连接时遇到很多问题，特意整理出来，以示后续类似问题不用手忙脚乱！   安装好Oracle和PLSQLDeveloper后，PLSQLDeveloper登录时没有可选数据库和连接的问题（Win10） 在选择未登录情况下进入plsql客户端，依次进入：首选项&amp;gt;连接 发现 Oracle主目录以及oci库的值是空的。这是需要先安装Oracle client，">
+<meta property="og:description" content="第一部分 Linux 常用命令集 centos 开关机命令： 关机：shutdown -h now  立刻关机（管理员权限）：shutdown -r now  立刻重启：reboot       更新yum仓库： yum -y update 删除文件： rm -f 文件名 查看某个文件： rpm -qa | grep 文件名 打开一个文件： vi(m) 文件名  键入i进入编辑模式  按下Esc键">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-20T04:58:35.312Z">
+<meta property="og:image" content="https://i.imgur.com/K5S8OxV.jpg">
+<meta property="og:updated_time" content="2019-03-05T13:24:14.074Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PLSQL无法连接Oracle的系列问题解决方法">
-<meta name="twitter:description" content="最近在安装Oracle后，使用plsql连接时遇到很多问题，特意整理出来，以示后续类似问题不用手忙脚乱！   安装好Oracle和PLSQLDeveloper后，PLSQLDeveloper登录时没有可选数据库和连接的问题（Win10） 在选择未登录情况下进入plsql客户端，依次进入：首选项&amp;gt;连接 发现 Oracle主目录以及oci库的值是空的。这是需要先安装Oracle client，">
+<meta name="twitter:title" content="Linux下部署Javaweb运行环境">
+<meta name="twitter:description" content="第一部分 Linux 常用命令集 centos 开关机命令： 关机：shutdown -h now  立刻关机（管理员权限）：shutdown -r now  立刻重启：reboot       更新yum仓库： yum -y update 删除文件： rm -f 文件名 查看某个文件： rpm -qa | grep 文件名 打开一个文件： vi(m) 文件名  键入i进入编辑模式  按下Esc键">
+<meta name="twitter:image" content="https://i.imgur.com/K5S8OxV.jpg">
 
 
 
@@ -116,7 +118,7 @@
 
 
 
-  <link rel="canonical" href="https://sunai.net/2019/03/20/pplsql无法连接Oracle的系列问题解决方法/">
+  <link rel="canonical" href="https://sunai.net/ck7lvet610001t4lgwqp2hg7g.html">
 
 
 
@@ -126,7 +128,7 @@
   };
 </script>
 
-  <title>PLSQL无法连接Oracle的系列问题解决方法 | Ian`s Blog</title>
+  <title>Linux下部署Javaweb运行环境 | Ian`s Blog</title>
   
 
 
@@ -366,7 +368,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://sunai.net/2019/03/20/pplsql无法连接Oracle的系列问题解决方法/">
+    <link itemprop="mainEntityOfPage" href="https://sunai.net/ck7lvet610001t4lgwqp2hg7g.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ian Geng">
@@ -383,7 +385,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">PLSQL无法连接Oracle的系列问题解决方法
+          <h2 class="post-title" itemprop="name headline">Linux下部署Javaweb运行环境
 
               
             
@@ -409,12 +411,24 @@
                 
               
 
-              <time title="创建时间：2019-03-20 11:08:41 / 修改时间：12:58:35" itemprop="dateCreated datePublished" datetime="2019-03-20T11:08:41+08:00">2019-03-20</time>
+              <time title="创建时间：2018-04-30 10:20:00" itemprop="dateCreated datePublished" datetime="2018-04-30T10:20:00+08:00">2018-04-30</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-05 21:24:14" itemprop="dateModified" datetime="2019-03-05T21:24:14+08:00">2019-03-05</time>
               
             
           </span>
@@ -431,7 +445,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Oracle/" itemprop="url" rel="index"><span itemprop="name">Oracle</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
 
                 
                 
@@ -451,8 +465,8 @@
             
               
                 <span class="post-meta-item-text">评论数：</span>
-                <a href="/2019/03/20/pplsql无法连接Oracle的系列问题解决方法/#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2019/03/20/pplsql无法连接Oracle的系列问题解决方法/" itemprop="commentCount"></span>
+                <a href="/ck7lvet610001t4lgwqp2hg7g.html#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="ck7lvet610001t4lgwqp2hg7g.html" itemprop="commentCount"></span>
                 </a>
               
             
@@ -487,75 +501,282 @@
       
 
       
-        <blockquote>
-<p>最近在安装Oracle后，使用plsql连接时遇到很多问题，特意整理出来，以示后续类似问题不用手忙脚乱！</p>
-</blockquote>
+        <h2 id="第一部分-Linux-常用命令集"><a href="#第一部分-Linux-常用命令集" class="headerlink" title="第一部分 Linux 常用命令集"></a>第一部分 Linux 常用命令集</h2><ul>
+<li>centos 开关机命令：<ul>
+<li>关机：shutdown -h now </li>
+<li>立刻关机（管理员权限）：shutdown -r now </li>
+<li>立刻重启：reboot</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://i.imgur.com/K5S8OxV.jpg" alt></p>
+<hr>
 <ol>
-<li><p>安装好Oracle和PLSQLDeveloper后，PLSQLDeveloper登录时没有可选数据库和连接的问题（Win10）</p>
-<p>在选择未登录情况下进入plsql客户端，依次进入：首选项&gt;连接</p>
-<p>发现 Oracle主目录以及oci库的值是空的。这是需要先安装Oracle client，由于plsql紧支持32位的，因此选择32位版本就OK，免安装版，下载地址：<a href="https://www.oracle.com/technetwork/database/database-technologies/instant-client/downloads/index.html" target="_blank" rel="noopener">Oracle client 下载地址</a></p>
-<p>第一步：<br>下载完成后为 instantclient_11_2 文件夹，将其拷贝到Oracle的安装目录<br>D:\app\Ian\product\11.2.0 下（这个目录依照你安装Oracle的路径安定）</p>
-<p>随后在 instantclient_11_2 路径下新建文件夹： NETWORK\ADMIN，<br>建好后是这样：<br>D:\app\Ian\product\11.2.0\instantclient_11_2\NETWORK\ADMIN</p>
-<p>接下来是将 D:\app\Ian\product\11.2.0\dbhome_1\NETWORK\ADMIN 下的两个文件（tnsnames.ora、sqlnet.ora）拷贝到建好的路径下</p>
-<p>第二步：配置plsql，为登录情况下进入plsql，进入：首选项&gt;连接，进行配置</p>
-<p>Oracle主目录的值： D:\app\Ian\product\11.2.0\instantclient_11_2</p>
-<p>OCI库的值：D:\app\Ian\product\11.2.0\instantclient_11_2\oci.dll</p>
-<p><strong>重启plsql解决问题</strong></p>
-</li>
-<li><p>解决plsql查询出的数据中文乱码问题</p>
-<p>查看数据的编码（语句：select * from v$nls_parameters）</p>
-<p>发现：     </p>
-<pre><code>NLS_LANGUAGE = AMERICAN  
-NLS_CHARACTERSET = ZHS16GBK
-</code></pre><p>不是想要的GBK模式</p>
-<p>配置环境变量：     </p>
-<pre><code>LANG=zh_CN.GBK  
-NLS_LANG=SIMPLIFIED CHINESE_CHINA.ZHS16GBK
-</code></pre><p><strong>重启plsql再次进行查询即可显示出中文</strong></p>
-</li>
-<li><p>plsql连接不同环境的数据库配置</p>
-<p>找到 Oracle 安装目录：<br>D:\app\Ian\product\11.2.0\dbhome_1\NETWORK\ADMIN<br>打开 tnsnames.ora 文件：</p>
-<h6 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h6><p>ORCL =<br>  (DESCRIPTION =</p>
-<pre><code>(ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
-(CONNECT_DATA =
-  (SERVER = DEDICATED)
-  (SERVICE_NAME = orcl)
-)
-</code></pre><p>  )</p>
-<h6 id="外网数据库配置（前提：对你所在的本机开放）"><a href="#外网数据库配置（前提：对你所在的本机开放）" class="headerlink" title="外网数据库配置（前提：对你所在的本机开放）"></a>外网数据库配置（前提：对你所在的本机开放）</h6><p>ORCL_test =<br>  (DESCRIPTION =</p>
-<pre><code>(ADDRESS = (PROTOCOL = TCP)(HOST = 1.1.1.666)(PORT = 1521))
-(CONNECT_DATA =
-  (SERVER = DEDICATED)
-  (SERVICE_NAME = orcl)
-)
-</code></pre><p>  )</p>
-<p>ORCL_test这个名字是由你自己取的,客户端是通过这个名字来获得服务器的登录信息的。</p>
-<p>最后，将 tnsnames.ora 拷贝覆盖  D:\app\Ian\product\11.2.0\instantclient_11_2\NETWORK\ADMIN<br>下的 tnsnames.ora 文件</p>
-<p>重启plsql即可</p>
+<li>更新yum仓库：<br> yum -y update</li>
+<li>删除文件：<br> rm -f 文件名</li>
+<li>查看某个文件：<br> rpm -qa | grep 文件名</li>
+<li><p>打开一个文件：<br> vi(m) 文件名</p>
+<p> 键入i进入编辑模式</p>
+<p> 按下Esc键，键入 :wq 执行保存退出（不保存退出则键入 :q!）</p>
 </li>
 </ol>
-<blockquote>
-<p>PROTOCOL是指定的通信协议,oracle是通过TCP/IP通信的。所以这里写TCP就好。</p>
-</blockquote>
-<blockquote>
-<p>HOST的话如果客户端和数据库在同一台电脑可以用localhost也可以用IP。如果不同电脑就必须用IP了,是oracle所在电脑的IP。</p>
-</blockquote>
-<blockquote>
-<p>PORT一般都是1521。</p>
-</blockquote>
-<blockquote>
-<p>SERVER是dedicated检测模式的监听。(不太清楚，不用管也正常)。</p>
-</blockquote>
-<blockquote>
-<p>service_name是oracle的SID。</p>
-</blockquote>
 <hr>
-<p><b>处理 ORA-12638：身份证明检索失败的解决方法</b>（主要问题是连接非本机Oracle会出现此问题）<br> D:\app\Ian\product\11.2.0\dbhome_1\NETWORK\ADMIN 下的文件：</p>
-<p> sqlnet.ora，编辑它。</p>
-<p>网上查找相关解答 都基本都是将里面的<br>SQLNET.AUTHENTICATION_SERVICES= (NTS)<br>改为：SQLNET.AUTHENTICATION_SERVICES= (NONE)</p>
-<p>但发现并不生效，将其注释掉，即可解决问题：</p>
-<p># SQLNET.AUTHENTICATION_SERVICES= (NTS)</p>
-<p>修改完后将其拷贝一份覆盖 D:\app\Ian\product\11.2.0\instantclient_11_2\NETWORK\ADMIN 下的同名文件，重启plsql解决问题。</p>
+<ol>
+<li>查看服务列表：<br>chkconfig –list</li>
+<li><p>安装防火墙：iptables服务组件(centos 7以下)：</p>
+<ul>
+<li><p>安装：yum install iptables-services</p>
+</li>
+<li><p>设置为可用：systemctl enable iptables</p>
+</li>
+<li><p>启动：systemctl start iptables 【[stop|restart]】</p>
+</li>
+<li><p>开放端口：iptables -A INPUT -p tcp –dport 端口号 -j ACCEPT</p>
+</li>
+<li><p>保存配置：service iptables save</p>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<p> Linux解压zip、tar等包：</p>
+<ul>
+<li><p>zip: unzip xxx.zip</p>
+</li>
+<li><p>tar: tar -xvf xxx.tar</p>
+</li>
+<li><p>tar.gz: tar -zxvf xxx.tar.gz</p>
+</li>
+</ul>
+<hr>
+<p>centOS（7及以上版本）下对防火墙的设置：</p>
+<ul>
+<li><p>启动一个服务：systemctl start firewalld.service</p>
+</li>
+<li><p>关闭一个服务：systemctlstop firewalld.service</p>
+</li>
+<li><p>重启一个服务：systemctlrestart firewalld.service</p>
+</li>
+<li><p>显示一个服务的状态：systemctlstatus firewalld.service</p>
+</li>
+<li><p>在开机时启用一个服务：systemctlenable firewalld.service</p>
+</li>
+<li><p>在开机时禁用一个服务：systemctldisable firewalld.service</p>
+</li>
+<li><p>查看服务是否开机启动：systemctlis-enabled firewalld.service</p>
+</li>
+<li><p>查看已启动的服务列表：systemctllist-unit-files|grep enabled</p>
+</li>
+<li><p>查看启动失败的服务列表：systemctl–failed</p>
+</li>
+<li><p>配置firewalld-cmd：</p>
+</li>
+<li><p>查看版本： firewall-cmd –version</p>
+</li>
+<li><p>查看帮助： firewall-cmd –help</p>
+</li>
+<li><p>显示状态： firewall-cmd –state</p>
+</li>
+<li><p>查看所有打开的端口：firewall-cmd–zone=public –list-ports</p>
+</li>
+<li><p>更新防火墙规则： firewall-cmd –reload</p>
+</li>
+<li><p>查看区域信息:firewall-cmd–get-active-zones</p>
+</li>
+<li><p>查看指定接口所属区域： firewall-cmd–get-zone-of-interface=eth0</p>
+</li>
+<li><p>拒绝所有包：firewall-cmd –panic-on</p>
+</li>
+<li><p>取消拒绝状态： firewall-cmd –panic-off</p>
+</li>
+<li><p>查看是否拒绝： firewall-cmd –query-panic</p>
+</li>
+</ul>
+<hr>
+<ol>
+<li><p>开启一个端口：</p>
+<p> firewall-cmd –zone=public –add-port=80/tcp –permanent （–permanent永久生效，没有此参数重启后失效）</p>
+</li>
+<li><p>重新载入：</p>
+<p> firewall-cmd –reload</p>
+</li>
+<li><p>查看端口：</p>
+<p> firewall-cmd –zone=public –query-port=80/tcp</p>
+</li>
+<li><p>删端口除：</p>
+<p> firewall-cmd –zone=public –remove-port=80/tcp –permanent<br>​</p>
+</li>
+</ol>
+<hr>
+<p>​</p>
+<h2 id="第二部分-Linux-常用Javaweb-环境工具安装"><a href="#第二部分-Linux-常用Javaweb-环境工具安装" class="headerlink" title="第二部分 Linux 常用Javaweb 环境工具安装"></a>第二部分 Linux 常用Javaweb 环境工具安装</h2><ol>
+<li><p>CentOS安装 jdk（免安装版）：</p>
+<ol>
+<li>下载 jdk tar 包</li>
+<li>将 jdk tar 包上传至 centOS 服务器</li>
+<li><p>解压 jdk tar 包：</p>
+<p> tar -zxvf xxx.tar.gz</p>
+</li>
+<li><p>配置 jdk 环境变量：</p>
+</li>
+</ol>
+</li>
+</ol>
+<p>(进入etc目录：cd /etc，使用 vi 命令打开 profile 配置文件：vi profile，键入 i 进入编辑模式)</p>
+<p>在配置文件行末添加如下配置：</p>
+<pre><code>export JAVA_HOME=/opt/jdk1.8.0_162
+
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+export PATH=$PATH:$JAVA_HOME/bin
+</code></pre><p>使得 jdk 生效：</p>
+<pre><code>source /etc/profile
+</code></pre><p>​<br>—​</p>
+<p>centOS安装 tomcat（免安装版）：</p>
+<ol>
+<li>下载 tomcat（免安装版）</li>
+<li>将 tomcat tar 包上传至 centOS 服务器</li>
+<li>解压 jdk tar 包：</li>
+<li> tar -zxvf xxx.tar.gz</li>
+</ol>
+<p>在 profile 配置文件作如下配置：</p>
+<pre><code>export TOMCAT_HOME=/opt/apache-tomcat-8.5.29
+export PATH=$PATH:$TOMCAT_HOME/bin
+</code></pre><p>使得 tomcat 生效：</p>
+<pre><code>source /etc/profile
+</code></pre><p>设置tomcat编码格式：</p>
+<pre><code>vim /opt/apache-tomcat-8/bin/server.xml
+
+&lt;Connector port=&quot;8080&quot; protocol=&quot;HTTP/1.1&quot; connectionTimeout=&quot;20000&quot; redirectPort=&quot;8443&quot; URIEncoding=&quot;utf-8&quot; /&gt;
+</code></pre><p>–***特别注意：配置环境变量时，等号两边不能留有空格（否则会报错）</p>
+<p>开放8080端口：</p>
+<pre><code>firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --reload
+</code></pre><p>​<br>—​</p>
+<p>centOS7下安装 mysql（rpm安装）<br>查看Linux是否默认安装了mysql：</p>
+<pre><code>rpm -qa | grep mariadb
+</code></pre><p>卸载mysql(centos7默认自带)：</p>
+<pre><code>rpm -e --nodeps mariadb-libs-5.5.56-2.el7.x86_64
+</code></pre><p>开始安装mysql：</p>
+<p>(1)配置YUM源<br>在MySQL官网中下载YUM源rpm安装包：<a href="http://dev.mysql.com/downloads/repo/yum/" target="_blank" rel="noopener">http://dev.mysql.com/downloads/repo/yum/</a></p>
+<p>下载mysql源安装包:</p>
+<pre><code>wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
+</code></pre><p>安装mysql源:</p>
+<pre><code>yum localinstall mysql57-community-release-el7-8.noarch.rpm
+</code></pre><p>检查mysql源是否安装成功:</p>
+<pre><code>yum repolist enabled | grep &quot;mysql.*-community.*&quot;
+</code></pre><p>(2)改变默认安装的mysql版本:</p>
+<pre><code>vi /etc/yum.repos.d/mysql-community.repo
+</code></pre><p>如：要安装5.6版本，将5.7源的enabled=1改成enabled=0。然后再将5.6源的enabled=0改成enabled=1即可。</p>
+<p>(3)安装MySQL:</p>
+<pre><code>yum install mysql-community-server
+</code></pre><p>(4)启动MySQL服务:</p>
+<pre><code>systemctl start mysqld [restart|stop]
+</code></pre><p>查看MySQL的启动状态：</p>
+<pre><code>systemctl status mysqld
+</code></pre><p>(5)开机启动</p>
+<pre><code>systemctl enable mysqld
+systemctl daemon-reload
+</code></pre><p>(6)修改root本地登录密码：</p>
+<pre><code>-mysql -uroot -p
+
+ALTER USERroot@localhostIDENTIFIED BY &apos;mysql&apos;;
+</code></pre><p>或</p>
+<pre><code>set password for &apos;root&apos;@&apos;localhost&apos;=password(&apos;password&apos;);
+</code></pre><p>(7)添加远程登录用户(需先登录mysql):</p>
+<pre><code>GRANT ALL PRIVILEGES ON *.* TO &apos;root&apos;@&apos;%&apos; IDENTIFIED BY &apos;mysql&apos; WITH GRANT OPTION;
+flush privileges;
+</code></pre><p>(8)配置默认编码为utf8:</p>
+<pre><code>cp -f /usr/share/mysql/my-default.cnf /etc/my.cnf
+vi /etc/my.cnf
+</code></pre><p>在[mysqld]下添加：</p>
+<pre><code>character_set_server=utf8
+init_connect=&apos;SET NAMES utf8&apos;
+</code></pre><p>(9)重启mysql服务：</p>
+<pre><code>systemctl restart mysqld
+</code></pre><p>(10)开放3306端口及22端口：</p>
+<pre><code>firewall-cmd --zone=public --add-port=3306/tcp --permanent
+firewall-cmd --zone=public --add-port=22/tcp --permanent
+</code></pre><p>重新载入</p>
+<pre><code>firewall-cmd --reload
+</code></pre><p>注：查看mysql服务是否启动：</p>
+<pre><code>ps -ef | grep mysql​
+</code></pre><p>​</p>
+<p>CentOS下 SVN版本控制的安装（yum安装）<br>检查是否安装了低版本的SVN：</p>
+<pre><code>rpm -qa subversion
+</code></pre><p>卸载旧版本SVN：</p>
+<pre><code>yum remove subversion
+</code></pre><p>1.在线安装SVN(subversion)：</p>
+<pre><code>yum -y install subversion
+</code></pre><p>查看SVN版本：</p>
+<pre><code>svnserve --version
+</code></pre><p>2.创建版本仓库：</p>
+<p>创建文件夹：</p>
+<pre><code>mkdir -p /opt/svn/project
+</code></pre><p>创建版本仓库：</p>
+<pre><code>svnadmin create /opt/svn/project/
+</code></pre><p>(注：查看/opt/svn/project 文件夹发现包含了conf, db,format,hooks, locks, README.txt等文件，说明一个SVN库已经建立。)</p>
+<p>README.txt 版本库的说明文件</p>
+<p>conf ：配置文件件夹（后续操作最多的文件夹）</p>
+<p>db ：SVN数据文件文件夹</p>
+<p>format ：当前版本库的版本号</p>
+<p>hooks ：SVN的钩子脚本文件夹</p>
+<p>locks ：SVN的文件锁相关的文件夹</p>
+<p>3.配置权限:</p>
+<p>(1)修改svnserve.conf：</p>
+<pre><code>anon-access=none #去除文件前的注释，将read改为none,防止匿名访问
+auth-access=write #去除文件前的注释
+password-db=passwd #去除文件前的注释
+authz-db=authz #去除文件前的注释,访问权限配置,非常重要,不打开,分组权限不生效
+</code></pre><p>(2)修改passwd,添加访问TestCode用户:</p>
+<p>以键值对的方式添加，等号两端不留空格：</p>
+<pre><code>ian=root(注：ian为SVN用户名，root为密码)
+</code></pre><p>(3)修改authz,设置添加的用户权限</p>
+<pre><code>###创建用户组，并添加用户
+
+[groups]
+
+group_root=root,ian
+
+group_comm=test
+
+# [repository:/baz/fuz]
+
+# @harry_and_sally = rw
+
+# * = r
+
+###用户组或用户授权
+
+#版本库路径 SVNproject仓库
+
+[project:/]    #[&lt;版本库名&gt;:&lt;路径&gt;]
+
+#给root用户组授权可读写权限
+
+@group_root=rw    #&lt;用户组&gt; = &lt;权限&gt; ，第一种方式
+
+#给test用户可读权限
+
+test=r    #&lt;用户名&gt; = &lt;权限&gt; ，第二种方式
+
+#设置匿名用户无权限
+</code></pre><p><em>=    #</em> = &lt;权限&gt;，第三种方式，*为任意用户，此为禁止匿名用户访问<br>4.防火墙开放SVN端口通行</p>
+<pre><code>firewall-cmd --zone=public --add-port=3690/tcp --permanent
+
+firewall-cmd --reload
+</code></pre><p>5.启动svn服务</p>
+<pre><code>svnserve -d -r /opt/svn
+</code></pre><p>(停止SVN服务：killall svnserve)</p>
+<p>6.windows客户端访问SVN仓库：</p>
+<p>下载TortoiseSVN(<a href="https://tortoisesvn.net/downloads.html" target="_blank" rel="noopener">https://tortoisesvn.net/downloads.html</a>)</p>
+<p>安装完成输入SVN地址：svn://192.168.43.85/project (注：project 为svn仓库名)</p>
+<p>7.同步(客户端到服务端)、更新(服务端都客户端) 资源</p>
+<p>(1)在桌面右键，选择SVN checkout…，输入SVN地址：svn://192.168.43.85/project,SVN用户名及密码登录成功后</p>
+<p>(2)在客户端(windows)创建一个空白文件夹用于存放项目</p>
+<p>在TortoiseSVN中的 checkout directory里选择该空白文件</p>
+<p>(3)配置完成后，打开该文件夹(或直接选中该文件夹)。右键，选择SVN update 进行服务断更新到客户端；</p>
+<p>选择 SVN commit 进行客户到提交到服务端</p>
 
       
     </div>
@@ -579,7 +800,9 @@ NLS_LANG=SIMPLIFIED CHINESE_CHINA.ZHS16GBK
       
         <div class="post-tags">
           
-            <a href="/tags/plsql连接Oracle/" rel="tag"># plsql连接Oracle</a>
+            <a href="/tags/Linux/" rel="tag"># Linux</a>
+          
+            <a href="/tags/Java环境搭建/" rel="tag"># Java环境搭建</a>
           
         </div>
       
@@ -592,8 +815,8 @@ NLS_LANG=SIMPLIFIED CHINESE_CHINA.ZHS16GBK
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/03/06/一些实用的工具书/" rel="next" title="一些实用的工具书">
-                <i class="fa fa-chevron-left"></i> 一些实用的工具书
+              <a href="/ck7lvet82001et4lglk2tuxyf.html" rel="next" title="基于springMVC的文件上传实现">
+                <i class="fa fa-chevron-left"></i> 基于springMVC的文件上传实现
               </a>
             
           </div>
@@ -602,8 +825,8 @@ NLS_LANG=SIMPLIFIED CHINESE_CHINA.ZHS16GBK
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/08/25/double-arrays-middle-data/" rel="prev" title="求两个数组的中位数">
-                求两个数组的中位数 <i class="fa fa-chevron-right"></i>
+              <a href="/ck7lvet87001lt4lgzoflxeia.html" rel="prev" title="版本控制系统TOP10">
+                版本控制系统TOP10 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -835,7 +1058,7 @@ NLS_LANG=SIMPLIFIED CHINESE_CHINA.ZHS16GBK
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#本地"><span class="nav-number">1.</span> <span class="nav-text">本地</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#外网数据库配置（前提：对你所在的本机开放）"><span class="nav-number">2.</span> <span class="nav-text">外网数据库配置（前提：对你所在的本机开放）</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一部分-Linux-常用命令集"><span class="nav-number">1.</span> <span class="nav-text">第一部分 Linux 常用命令集</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二部分-Linux-常用Javaweb-环境工具安装"><span class="nav-number">2.</span> <span class="nav-text">第二部分 Linux 常用Javaweb 环境工具安装</span></a></li></ol></div>
             
 
           </div>
