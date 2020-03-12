@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo next博文压缩插件hexo-neat</title>
-    <link href="https://sunai.net/2020/1772700460.html"/>
-    <id>https://sunai.net/2020/1772700460.html</id>
+    <link href="https://sunai.net/pages/1772700460.html"/>
+    <id>https://sunai.net/pages/1772700460.html</id>
     <published>2020-03-11T09:27:38.000Z</published>
     <updated>2020-03-11T09:30:49.085Z</updated>
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00)
         
       
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Hexo next主题安装needmoreshare2插件</title>
-    <link href="https://sunai.net/2020/3530097501.html"/>
-    <id>https://sunai.net/2020/3530097501.html</id>
+    <link href="https://sunai.net/pages/3530097501.html"/>
+    <id>https://sunai.net/pages/3530097501.html</id>
     <published>2020-03-11T09:18:44.000Z</published>
     <updated>2020-03-11T09:25:07.310Z</updated>
     
@@ -55,7 +55,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;strong&gt;首先在themes/next/下执行&lt;/strong&gt;&lt;/p&gt;&lt;figure class=&quot;highlight
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;strong&gt;首先在themes/next/下执行&lt;/strong&gt;&lt;/p&gt;&lt;figure class=&quot;highlight
         
       
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>Hexo 本地插入图片</title>
-    <link href="https://sunai.net/2020/311364607.html"/>
-    <id>https://sunai.net/2020/311364607.html</id>
+    <link href="https://sunai.net/pages/311364607.html"/>
+    <id>https://sunai.net/pages/311364607.html</id>
     <published>2020-03-10T17:54:37.000Z</published>
     <updated>2020-03-11T08:23:46.704Z</updated>
     
@@ -81,7 +81,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true&lt;/p&gt;&lt;figure
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true&lt;/p&gt;&lt;figure
         
       
     
@@ -96,8 +96,8 @@
   
   <entry>
     <title>Hexo中Next主题添加CNZZ统计</title>
-    <link href="https://sunai.net/2020/3725037260.html"/>
-    <id>https://sunai.net/2020/3725037260.html</id>
+    <link href="https://sunai.net/pages/3725037260.html"/>
+    <id>https://sunai.net/pages/3725037260.html</id>
     <published>2020-03-10T16:31:02.000Z</published>
     <updated>2020-03-10T17:51:04.361Z</updated>
     
@@ -107,7 +107,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;span class=&quot;exturl&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;span class=&quot;exturl&quot;
         
       
     
@@ -122,8 +122,8 @@
   
   <entry>
     <title>算法之求一个数是否是2的N次幂</title>
-    <link href="https://sunai.net/2020/3275302967.html"/>
-    <id>https://sunai.net/2020/3275302967.html</id>
+    <link href="https://sunai.net/pages/3275302967.html"/>
+    <id>https://sunai.net/pages/3275302967.html</id>
     <published>2020-03-10T15:27:10.000Z</published>
     <updated>2020-03-10T15:33:56.213Z</updated>
     
@@ -133,7 +133,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00)
         
       
     
@@ -150,8 +150,8 @@
   
   <entry>
     <title>Hexo permalinks 永久链接设置</title>
-    <link href="https://sunai.net/2020/1355307112.html"/>
-    <id>https://sunai.net/2020/1355307112.html</id>
+    <link href="https://sunai.net/pages/1355307112.html"/>
+    <id>https://sunai.net/pages/1355307112.html</id>
     <published>2020-03-10T15:10:28.000Z</published>
     <updated>2020-03-10T15:22:29.368Z</updated>
     
@@ -161,7 +161,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;永久链接（Permalinks）&quot;&gt;&lt;a href=&quot;#永久链接（Permalinks）&quot; class=&quot;headerlink&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;永久链接（Permalinks）&quot;&gt;&lt;a href=&quot;#永久链接（Permalinks）&quot; class=&quot;headerlink&quot;
         
       
     
@@ -176,8 +176,8 @@
   
   <entry>
     <title>Hexo博客NexT主题搭建Valine评论系统</title>
-    <link href="https://sunai.net/2020/678611036.html"/>
-    <id>https://sunai.net/2020/678611036.html</id>
+    <link href="https://sunai.net/pages/678611036.html"/>
+    <id>https://sunai.net/pages/678611036.html</id>
     <published>2020-03-10T14:34:03.000Z</published>
     <updated>2020-03-10T14:46:21.780Z</updated>
     
@@ -187,7 +187,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;为何使用Valine&quot;&gt;&lt;a href=&quot;#为何使用Valine&quot; class=&quot;headerlink&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;为何使用Valine&quot;&gt;&lt;a href=&quot;#为何使用Valine&quot; class=&quot;headerlink&quot;
         
       
     
@@ -204,8 +204,8 @@
   
   <entry>
     <title>Ubuntu屏幕适配</title>
-    <link href="https://sunai.net/2019/127577627.html"/>
-    <id>https://sunai.net/2019/127577627.html</id>
+    <link href="https://sunai.net/pages/127577627.html"/>
+    <id>https://sunai.net/pages/127577627.html</id>
     <published>2019-12-13T07:32:42.000Z</published>
     <updated>2020-03-10T13:03:36.669Z</updated>
     
@@ -215,7 +215,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;使用VMware安装的ubuntu虚拟机的显示屏幕太小，可以通过在VMware里安装“VMware
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;使用VMware安装的ubuntu虚拟机的显示屏幕太小，可以通过在VMware里安装“VMware
         
       
     
@@ -234,8 +234,8 @@
   
   <entry>
     <title>git关联的的文件没有绿色、红色小图标</title>
-    <link href="https://sunai.net/2019/1152477806.html"/>
-    <id>https://sunai.net/2019/1152477806.html</id>
+    <link href="https://sunai.net/pages/1152477806.html"/>
+    <id>https://sunai.net/pages/1152477806.html</id>
     <published>2019-09-04T08:05:36.000Z</published>
     <updated>2020-03-10T13:03:36.674Z</updated>
     
@@ -245,7 +245,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;git关联的的文件没有绿色、红色小图标&quot;&gt;&lt;a href=&quot;#git关联的的文件没有绿色、红色小图标&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;git关联的的文件没有绿色、红色小图标&quot;&gt;&lt;a href=&quot;#git关联的的文件没有绿色、红色小图标&quot;
         
       
     
@@ -260,8 +260,8 @@
   
   <entry>
     <title>eclipse上使用git pull代码时报错</title>
-    <link href="https://sunai.net/2019/2430150142.html"/>
-    <id>https://sunai.net/2019/2430150142.html</id>
+    <link href="https://sunai.net/pages/2430150142.html"/>
+    <id>https://sunai.net/pages/2430150142.html</id>
     <published>2019-09-04T07:54:02.000Z</published>
     <updated>2020-03-10T13:03:36.672Z</updated>
     
@@ -271,7 +271,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h2
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h2
         
       
     
@@ -290,8 +290,8 @@
   
   <entry>
     <title>Oracle使用IMP/EXP导库</title>
-    <link href="https://sunai.net/2019/930360282.html"/>
-    <id>https://sunai.net/2019/930360282.html</id>
+    <link href="https://sunai.net/pages/930360282.html"/>
+    <id>https://sunai.net/pages/930360282.html</id>
     <published>2019-09-03T08:06:16.000Z</published>
     <updated>2020-03-10T13:03:36.673Z</updated>
     
@@ -301,7 +301,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;Oracle使用IMP-EXP导库&quot;&gt;&lt;a href=&quot;#Oracle使用IMP-EXP导库&quot; class=&quot;headerlink&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;Oracle使用IMP-EXP导库&quot;&gt;&lt;a href=&quot;#Oracle使用IMP-EXP导库&quot; class=&quot;headerlink&quot;
         
       
     
@@ -318,8 +318,8 @@
   
   <entry>
     <title>求两个数之和</title>
-    <link href="https://sunai.net/2019/222582915.html"/>
-    <id>https://sunai.net/2019/222582915.html</id>
+    <link href="https://sunai.net/pages/222582915.html"/>
+    <id>https://sunai.net/pages/222582915.html</id>
     <published>2019-08-25T08:22:49.000Z</published>
     <updated>2020-03-10T13:03:36.675Z</updated>
     
@@ -329,7 +329,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot;
         
       
     
@@ -344,8 +344,8 @@
   
   <entry>
     <title>hexo执行部署项目到Git时报错10054的解决办法</title>
-    <link href="https://sunai.net/2019/2429278550.html"/>
-    <id>https://sunai.net/2019/2429278550.html</id>
+    <link href="https://sunai.net/pages/2429278550.html"/>
+    <id>https://sunai.net/pages/2429278550.html</id>
     <published>2019-08-25T08:08:12.000Z</published>
     <updated>2020-03-10T13:03:36.673Z</updated>
     
@@ -355,7 +355,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;hexo执行部署项目到Git时报错10054的解决办法&quot;&gt;&lt;a
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;hexo执行部署项目到Git时报错10054的解决办法&quot;&gt;&lt;a
         
       
     
@@ -370,8 +370,8 @@
   
   <entry>
     <title>求两个数组的中位数</title>
-    <link href="https://sunai.net/2019/4122538849.html"/>
-    <id>https://sunai.net/2019/4122538849.html</id>
+    <link href="https://sunai.net/pages/4122538849.html"/>
+    <id>https://sunai.net/pages/4122538849.html</id>
     <published>2019-08-25T07:52:08.000Z</published>
     <updated>2020-03-10T13:03:36.672Z</updated>
     
@@ -381,7 +381,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;求两个数组的中位数&quot;&gt;&lt;a href=&quot;#求两个数组的中位数&quot; class=&quot;headerlink&quot;
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;求两个数组的中位数&quot;&gt;&lt;a href=&quot;#求两个数组的中位数&quot; class=&quot;headerlink&quot;
         
       
     
@@ -396,8 +396,8 @@
   
   <entry>
     <title>PLSQL无法连接Oracle的系列问题解决方法</title>
-    <link href="https://sunai.net/2019/2334198046.html"/>
-    <id>https://sunai.net/2019/2334198046.html</id>
+    <link href="https://sunai.net/pages/2334198046.html"/>
+    <id>https://sunai.net/pages/2334198046.html</id>
     <published>2019-03-20T03:08:41.000Z</published>
     <updated>2020-03-10T13:03:36.675Z</updated>
     
@@ -407,7 +407,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00)
         
       
     
@@ -422,8 +422,8 @@
   
   <entry>
     <title>一些实用的工具书</title>
-    <link href="https://sunai.net/2019/886577256.html"/>
-    <id>https://sunai.net/2019/886577256.html</id>
+    <link href="https://sunai.net/pages/886577256.html"/>
+    <id>https://sunai.net/pages/886577256.html</id>
     <published>2019-03-06T03:02:50.000Z</published>
     <updated>2020-03-10T13:03:36.677Z</updated>
     
@@ -433,7 +433,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;一些实用的IT工具书籍推荐给大家，有兴趣可参阅！&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;img
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;一些实用的IT工具书籍推荐给大家，有兴趣可参阅！&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;img
         
       
     
@@ -450,8 +450,8 @@
   
   <entry>
     <title>Oracle修改字符集</title>
-    <link href="https://sunai.net/2019/3371473992.html"/>
-    <id>https://sunai.net/2019/3371473992.html</id>
+    <link href="https://sunai.net/pages/3371473992.html"/>
+    <id>https://sunai.net/pages/3371473992.html</id>
     <published>2019-03-04T07:06:25.000Z</published>
     <updated>2020-03-10T13:03:36.671Z</updated>
     
@@ -461,7 +461,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;打开CMD窗口，以管理员登陆&lt;/p&gt;&lt;pre&gt;&lt;code&gt;sqlplus / as
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;打开CMD窗口，以管理员登陆&lt;/p&gt;&lt;pre&gt;&lt;code&gt;sqlplus / as
         
       
     
@@ -478,8 +478,8 @@
   
   <entry>
     <title>MySQL8.x在windows下安装</title>
-    <link href="https://sunai.net/2019/3285825706.html"/>
-    <id>https://sunai.net/2019/3285825706.html</id>
+    <link href="https://sunai.net/pages/3285825706.html"/>
+    <id>https://sunai.net/pages/3285825706.html</id>
     <published>2019-03-04T06:21:19.000Z</published>
     <updated>2020-03-10T13:03:36.669Z</updated>
     
@@ -489,7 +489,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;MySQL 8.x
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;MySQL 8.x
         
       
     
@@ -504,8 +504,8 @@
   
   <entry>
     <title>Oracle删除用户及其数据</title>
-    <link href="https://sunai.net/2019/2932965211.html"/>
-    <id>https://sunai.net/2019/2932965211.html</id>
+    <link href="https://sunai.net/pages/2932965211.html"/>
+    <id>https://sunai.net/pages/2932965211.html</id>
     <published>2019-03-04T06:10:57.000Z</published>
     <updated>2020-03-10T13:03:36.670Z</updated>
     
@@ -515,7 +515,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00)
         
       
     
@@ -530,8 +530,8 @@
   
   <entry>
     <title>Oracle数据备份及导入</title>
-    <link href="https://sunai.net/2019/3552476894.html"/>
-    <id>https://sunai.net/2019/3552476894.html</id>
+    <link href="https://sunai.net/pages/3552476894.html"/>
+    <id>https://sunai.net/pages/3552476894.html</id>
     <published>2019-03-04T01:00:50.000Z</published>
     <updated>2020-03-10T13:03:36.672Z</updated>
     
@@ -541,7 +541,7 @@
       
         
         
-          &lt;!-- build time:Wed Mar 11 2020 19:24:38 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;本文就Oracle数据库的备份及导入，基于
+          &lt;!-- build time:Thu Mar 12 2020 09:02:09 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;本文就Oracle数据库的备份及导入，基于
         
       
     
