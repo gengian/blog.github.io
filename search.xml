@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Tomcat9.0配置的那些事儿]]></title>
+    <url>%2Fpost%2F263dced6.html</url>
+    <content type="text"><![CDATA[第一步 下载Tomcat地址：https://tomcat.apache.org/download-90.cgi第二步 将下载的zip文件解压（Linux为gz）基本结构：网络控制配置：详细配置/conf/server.xml访问端口及编码配置项目映射、IP配置项目 《———–》 tomcat 为一对一映射/webapps/manager/META-INF/context.xmlIP网络访问控制配置/conf/tomcat-users.xmltomcat后台管理配置/conf/logging.propertieslog配置Windows下乱码解决，编码默认是UTF-8，配置为GBK解决乱码]]></content>
+      <categories>
+        <category>Tomcat配置</category>
+        <category>Tomcat部署war项目</category>
+      </categories>
+      <tags>
+        <tag>Tomcat</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[github使用ssh协议报错的解决办法]]></title>
     <url>%2Fpost%2F3c2747fe.html</url>
     <content type="text"><![CDATA[检查本地ssh key是否存在打开git bash，输入以下命令检查ssh key是否存在ls ~/.ssh/ 若存在，跳过步骤2，不存在则执行步骤2。生成ssh key在git bash中执行以下命令ssh-keygen -t rsa -C &quot;自己的邮箱地址&quot; 添加ssh key至ssh-agent执行以下命令eval &quot;ssh-agent -s&quot; 执行以下命令添加ssh key至ssh-agentssh-add ~/.ssh/id_rsa 若出错：输入命令—&gt;ssh-agent bash 后再执行以上命令添加ssh key至guthub登录https://github.com/，在页面右上角自己头像右边箭头处右击，弹框中进入setting功能；setting界面右边菜单选择SSH and GPG keys，选择新建SSH keys，把 C:\Users\Administrator.ssh目录下，id_rsa.pub文件中的内容，copy过来粘贴上，保存即可。测试ssh -T git@gitub.com 完成以上步骤就可以使用ssh方式，用命令git clone git@github.com:***.git的形式下载项目到本地了。注：Windows下复制id_rsa命令clip &lt; ~/.ssh/id_rsa.pub]]></content>
