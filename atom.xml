@@ -29,7 +29,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;第一步-下载Tomcat&quot;&gt;&lt;a href=&quot;#第一步-下载Tomcat&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;第一步-下载Tomcat&quot;&gt;&lt;a href=&quot;#第一步-下载Tomcat&quot; class=&quot;headerlink&quot; title=&quot;第一步 下载Tomcat&quot;&gt;&lt;/a&gt;第一步 下载Tomcat&lt;/h1&gt;&lt;p&gt;地址：&lt;span class=&quot;exturl&quot;
         
       
     
@@ -57,7 +57,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;ul&gt;&lt;li&gt;&lt;ol&gt;&lt;li&gt;检查本地ssh key是否存在&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;打开git
+          &lt;ul&gt;&lt;li&gt;&lt;ol&gt;&lt;li&gt;检查本地ssh key是否存在&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;打开git bash，输入以下命令检查ssh key是否存在&lt;/p&gt;&lt;pre&gt;&lt;code&gt;ls
         
       
     
@@ -83,7 +83,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot;
         
       
     
@@ -109,7 +109,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00)
+          &lt;blockquote&gt;&lt;p&gt;用Hexo生成的博客文件中存在大量的空格和空行，从而使得博客资源中有很多不必要的内存消耗，使得网站加载变慢，所以可以利用neat进行博文压缩&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;首先安装hexo-neat&quot;&gt;&lt;a
         
       
     
@@ -135,7 +135,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;strong&gt;首先在themes/next/下执行&lt;/strong&gt;&lt;/p&gt;&lt;figure class=&quot;highlight
+          &lt;p&gt;&lt;strong&gt;首先在themes/next/下执行&lt;/strong&gt;&lt;/p&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
         
       
     
@@ -161,7 +161,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true&lt;/p&gt;&lt;figure
+          &lt;ol&gt;&lt;li&gt;&lt;p&gt;把主页配置文件_config.yml 里的post_asset_folder:这个选项设置为true&lt;/p&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
         
       
     
@@ -187,7 +187,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;span class=&quot;exturl&quot;
+          &lt;p&gt;&lt;span class=&quot;exturl&quot; data-url=&quot;aHR0cHM6Ly9wYXNzcG9ydC51bWVuZy5jb20vbG9naW4/YXBwSWQ9Y256eg==&quot;
         
       
     
@@ -213,7 +213,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00)
+          &lt;p&gt;如题，如何判断一个整数是否是2的N次方，我能想到的方法有两个&lt;/p&gt;&lt;p&gt;1.一直除2，看最后是否等于1.（效率低下）&lt;/p&gt;&lt;p&gt;2.转换成2进制，看是否是这个样子的：1,10,100,1000,10000，就是除了最高位是1，其他都是0，或者说只有一个1.&lt;/p&gt;&lt;p&gt;
         
       
     
@@ -241,7 +241,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;永久链接（Permalinks）&quot;&gt;&lt;a href=&quot;#永久链接（Permalinks）&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;永久链接（Permalinks）&quot;&gt;&lt;a href=&quot;#永久链接（Permalinks）&quot; class=&quot;headerlink&quot; title=&quot;永久链接（Permalinks）&quot;&gt;&lt;/a&gt;永久链接（Permalinks）&lt;/h1&gt;&lt;p&gt;您可以在
         
       
     
@@ -267,7 +267,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;为何使用Valine&quot;&gt;&lt;a href=&quot;#为何使用Valine&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;为何使用Valine&quot;&gt;&lt;a href=&quot;#为何使用Valine&quot; class=&quot;headerlink&quot;
         
       
     
@@ -295,7 +295,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;使用VMware安装的ubuntu虚拟机的显示屏幕太小，可以通过在VMware里安装“VMware
+          &lt;blockquote&gt;&lt;p&gt;使用VMware安装的ubuntu虚拟机的显示屏幕太小，可以通过在VMware里安装“VMware Tool”插件解决，安装步骤记录一下。&lt;/p&gt;&lt;/blockquote&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;安装VMware
         
       
     
@@ -325,7 +325,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;git关联的的文件没有绿色、红色小图标&quot;&gt;&lt;a href=&quot;#git关联的的文件没有绿色、红色小图标&quot;
+          &lt;h2 id=&quot;git关联的的文件没有绿色、红色小图标&quot;&gt;&lt;a href=&quot;#git关联的的文件没有绿色、红色小图标&quot; class=&quot;headerlink&quot;
         
       
     
@@ -351,7 +351,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h2
+          &lt;h2 id=&quot;eclipse上使用git-pull代码时报错：cannot-open-git-upload-pack-git-receive-pack&quot;&gt;&lt;a
         
       
     
@@ -381,7 +381,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;Oracle使用IMP-EXP导库&quot;&gt;&lt;a href=&quot;#Oracle使用IMP-EXP导库&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;Oracle使用IMP-EXP导库&quot;&gt;&lt;a href=&quot;#Oracle使用IMP-EXP导库&quot; class=&quot;headerlink&quot;
         
       
     
@@ -409,7 +409,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;问题：&quot;&gt;&lt;a href=&quot;#问题：&quot; class=&quot;headerlink&quot; title=&quot;问题：&quot;&gt;&lt;/a&gt;问题：&lt;/h2&gt;&lt;p&gt;给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个
         
       
     
@@ -435,7 +435,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;hexo执行部署项目到Git时报错10054的解决办法&quot;&gt;&lt;a
+          &lt;h2 id=&quot;hexo执行部署项目到Git时报错10054的解决办法&quot;&gt;&lt;a href=&quot;#hexo执行部署项目到Git时报错10054的解决办法&quot; class=&quot;headerlink&quot;
         
       
     
@@ -461,7 +461,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;h2 id=&quot;求两个数组的中位数&quot;&gt;&lt;a href=&quot;#求两个数组的中位数&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;求两个数组的中位数&quot;&gt;&lt;a href=&quot;#求两个数组的中位数&quot; class=&quot;headerlink&quot; title=&quot;求两个数组的中位数&quot;&gt;&lt;/a&gt;求两个数组的中位数&lt;/h2&gt;&lt;figure class=&quot;highlight
         
       
     
@@ -487,7 +487,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00)
+          &lt;blockquote&gt;&lt;p&gt;最近在安装Oracle后，使用plsql连接时遇到很多问题，特意整理出来，以示后续类似问题不用手忙脚乱！&lt;/p&gt;&lt;/blockquote&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;安装好Oracle和PLSQLDeveloper后，PLSQLDeveloper登录时没有
         
       
     
@@ -513,7 +513,7 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;blockquote&gt;&lt;p&gt;一些实用的IT工具书籍推荐给大家，有兴趣可参阅！&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;img
+          &lt;blockquote&gt;&lt;p&gt;一些实用的IT工具书籍推荐给大家，有兴趣可参阅！&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hn1Y9x4.jpg&quot;
         
       
     
@@ -541,7 +541,8 @@
       
         
         
-          &lt;!-- build time:Tue Feb 09 2021 00:35:52 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;打开CMD窗口，以管理员登陆&lt;/p&gt;&lt;pre&gt;&lt;code&gt;sqlplus / as
+          &lt;p&gt;打开CMD窗口，以管理员登陆&lt;/p&gt;&lt;pre&gt;&lt;code&gt;sqlplus / as sysdba
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查看服务器端字符集&lt;/p&gt;&lt;pre&gt;&lt;code&gt;SQL &amp;gt; select * from
         
       
     
