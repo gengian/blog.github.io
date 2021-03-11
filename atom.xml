@@ -5,9 +5,9 @@
   <subtitle>为者常成，行者常至</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://cosmo.xin/"/>
+  <link href="https://cosmos.xin/"/>
   <updated>2020-05-16T06:59:53.951Z</updated>
-  <id>https://cosmo.xin/</id>
+  <id>https://cosmos.xin/</id>
   
   <author>
     <name>Ian Geng</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Tomcat9.0配置的那些事儿</title>
-    <link href="https://cosmo.xin/post/263dced6.html"/>
-    <id>https://cosmo.xin/post/263dced6.html</id>
+    <link href="https://cosmos.xin/post/263dced6.html"/>
+    <id>https://cosmos.xin/post/263dced6.html</id>
     <published>2020-05-16T06:16:30.000Z</published>
     <updated>2020-05-16T06:59:53.951Z</updated>
     
@@ -35,19 +35,19 @@
     
     </summary>
     
-      <category term="Tomcat配置" scheme="https://cosmo.xin/categories/Tomcat%E9%85%8D%E7%BD%AE/"/>
+      <category term="Tomcat配置" scheme="https://cosmos.xin/categories/Tomcat%E9%85%8D%E7%BD%AE/"/>
     
-      <category term="Tomcat部署war项目" scheme="https://cosmo.xin/categories/Tomcat%E9%85%8D%E7%BD%AE/Tomcat%E9%83%A8%E7%BD%B2war%E9%A1%B9%E7%9B%AE/"/>
+      <category term="Tomcat部署war项目" scheme="https://cosmos.xin/categories/Tomcat%E9%85%8D%E7%BD%AE/Tomcat%E9%83%A8%E7%BD%B2war%E9%A1%B9%E7%9B%AE/"/>
     
     
-      <category term="Tomcat" scheme="https://cosmo.xin/tags/Tomcat/"/>
+      <category term="Tomcat" scheme="https://cosmos.xin/tags/Tomcat/"/>
     
   </entry>
   
   <entry>
     <title>github使用ssh协议报错的解决办法</title>
-    <link href="https://cosmo.xin/post/3c2747fe.html"/>
-    <id>https://cosmo.xin/post/3c2747fe.html</id>
+    <link href="https://cosmos.xin/post/3c2747fe.html"/>
+    <id>https://cosmos.xin/post/3c2747fe.html</id>
     <published>2020-05-16T03:43:06.000Z</published>
     <updated>2020-05-16T03:57:30.892Z</updated>
     
@@ -63,17 +63,17 @@
     
     </summary>
     
-      <category term="Git" scheme="https://cosmo.xin/categories/Git/"/>
+      <category term="Git" scheme="https://cosmos.xin/categories/Git/"/>
     
     
-      <category term="Git" scheme="https://cosmo.xin/tags/Git/"/>
+      <category term="Git" scheme="https://cosmos.xin/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Java网络编程汇总</title>
-    <link href="https://cosmo.xin/post/f2aaa61f.html"/>
-    <id>https://cosmo.xin/post/f2aaa61f.html</id>
+    <link href="https://cosmos.xin/post/f2aaa61f.html"/>
+    <id>https://cosmos.xin/post/f2aaa61f.html</id>
     <published>2020-03-13T02:05:24.000Z</published>
     <updated>2020-03-13T02:35:16.988Z</updated>
     
@@ -89,17 +89,17 @@
     
     </summary>
     
-      <category term="Java" scheme="https://cosmo.xin/categories/Java/"/>
+      <category term="Java" scheme="https://cosmos.xin/categories/Java/"/>
     
     
-      <category term="网络编程" scheme="https://cosmo.xin/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+      <category term="网络编程" scheme="https://cosmos.xin/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Hexo next博文压缩插件hexo-neat</title>
-    <link href="https://cosmo.xin/post/69a9432c.html"/>
-    <id>https://cosmo.xin/post/69a9432c.html</id>
+    <link href="https://cosmos.xin/post/69a9432c.html"/>
+    <id>https://cosmos.xin/post/69a9432c.html</id>
     <published>2020-03-11T09:27:38.000Z</published>
     <updated>2020-03-12T02:31:52.686Z</updated>
     
@@ -115,17 +115,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://cosmo.xin/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://cosmo.xin/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo next主题安装needmoreshare2插件</title>
-    <link href="https://cosmo.xin/post/d269035d.html"/>
-    <id>https://cosmo.xin/post/d269035d.html</id>
+    <link href="https://cosmos.xin/post/d269035d.html"/>
+    <id>https://cosmos.xin/post/d269035d.html</id>
     <published>2020-03-11T09:18:44.000Z</published>
     <updated>2020-03-12T02:31:52.687Z</updated>
     
@@ -141,17 +141,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://cosmo.xin/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://cosmo.xin/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 本地插入图片</title>
-    <link href="https://cosmo.xin/post/128f0bff.html"/>
-    <id>https://cosmo.xin/post/128f0bff.html</id>
+    <link href="https://cosmos.xin/post/128f0bff.html"/>
+    <id>https://cosmos.xin/post/128f0bff.html</id>
     <published>2020-03-10T17:54:37.000Z</published>
     <updated>2020-03-12T02:31:52.688Z</updated>
     
@@ -167,17 +167,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://cosmo.xin/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://cosmo.xin/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo中Next主题添加CNZZ统计</title>
-    <link href="https://cosmo.xin/post/de078ecc.html"/>
-    <id>https://cosmo.xin/post/de078ecc.html</id>
+    <link href="https://cosmos.xin/post/de078ecc.html"/>
+    <id>https://cosmos.xin/post/de078ecc.html</id>
     <published>2020-03-10T16:31:02.000Z</published>
     <updated>2020-03-12T02:31:52.689Z</updated>
     
@@ -193,17 +193,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://cosmo.xin/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/categories/Hexo/"/>
     
     
-      <category term="CNZZ" scheme="https://cosmo.xin/tags/CNZZ/"/>
+      <category term="CNZZ" scheme="https://cosmos.xin/tags/CNZZ/"/>
     
   </entry>
   
   <entry>
     <title>算法之求一个数是否是2的N次幂</title>
-    <link href="https://cosmo.xin/post/c3392837.html"/>
-    <id>https://cosmo.xin/post/c3392837.html</id>
+    <link href="https://cosmos.xin/post/c3392837.html"/>
+    <id>https://cosmos.xin/post/c3392837.html</id>
     <published>2020-03-10T15:27:10.000Z</published>
     <updated>2020-03-12T02:31:52.701Z</updated>
     
@@ -219,19 +219,19 @@
     
     </summary>
     
-      <category term="算法" scheme="https://cosmo.xin/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://cosmos.xin/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="算法" scheme="https://cosmo.xin/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://cosmos.xin/tags/%E7%AE%97%E6%B3%95/"/>
     
-      <category term="2的N次幂" scheme="https://cosmo.xin/tags/2%E7%9A%84N%E6%AC%A1%E5%B9%82/"/>
+      <category term="2的N次幂" scheme="https://cosmos.xin/tags/2%E7%9A%84N%E6%AC%A1%E5%B9%82/"/>
     
   </entry>
   
   <entry>
     <title>Hexo permalinks 永久链接设置</title>
-    <link href="https://cosmo.xin/post/50c85868.html"/>
-    <id>https://cosmo.xin/post/50c85868.html</id>
+    <link href="https://cosmos.xin/post/50c85868.html"/>
+    <id>https://cosmos.xin/post/50c85868.html</id>
     <published>2020-03-10T15:10:28.000Z</published>
     <updated>2020-03-12T02:31:52.685Z</updated>
     
@@ -247,17 +247,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://cosmo.xin/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://cosmo.xin/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客NexT主题搭建Valine评论系统</title>
-    <link href="https://cosmo.xin/post/2872c85c.html"/>
-    <id>https://cosmo.xin/post/2872c85c.html</id>
+    <link href="https://cosmos.xin/post/2872c85c.html"/>
+    <id>https://cosmos.xin/post/2872c85c.html</id>
     <published>2020-03-10T14:34:03.000Z</published>
     <updated>2020-03-12T02:31:52.687Z</updated>
     
@@ -273,19 +273,19 @@
     
     </summary>
     
-      <category term="Hexo" scheme="https://cosmo.xin/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://cosmo.xin/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://cosmos.xin/tags/Hexo/"/>
     
-      <category term="Valine" scheme="https://cosmo.xin/tags/Valine/"/>
+      <category term="Valine" scheme="https://cosmos.xin/tags/Valine/"/>
     
   </entry>
   
   <entry>
     <title>Ubuntu屏幕适配</title>
-    <link href="https://cosmo.xin/post/79aae1b.html"/>
-    <id>https://cosmo.xin/post/79aae1b.html</id>
+    <link href="https://cosmos.xin/post/79aae1b.html"/>
+    <id>https://cosmos.xin/post/79aae1b.html</id>
     <published>2019-12-13T07:32:42.000Z</published>
     <updated>2020-03-12T02:31:52.693Z</updated>
     
@@ -301,21 +301,21 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://cosmo.xin/categories/Linux/"/>
+      <category term="Linux" scheme="https://cosmos.xin/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="https://cosmo.xin/tags/Linux/"/>
+      <category term="Linux" scheme="https://cosmos.xin/tags/Linux/"/>
     
-      <category term="Ubuntu" scheme="https://cosmo.xin/tags/Ubuntu/"/>
+      <category term="Ubuntu" scheme="https://cosmos.xin/tags/Ubuntu/"/>
     
-      <category term="屏幕适配" scheme="https://cosmo.xin/tags/%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D/"/>
+      <category term="屏幕适配" scheme="https://cosmos.xin/tags/%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D/"/>
     
   </entry>
   
   <entry>
     <title>git关联的的文件没有绿色、红色小图标</title>
-    <link href="https://cosmo.xin/post/44b16a6e.html"/>
-    <id>https://cosmo.xin/post/44b16a6e.html</id>
+    <link href="https://cosmos.xin/post/44b16a6e.html"/>
+    <id>https://cosmos.xin/post/44b16a6e.html</id>
     <published>2019-09-04T08:05:36.000Z</published>
     <updated>2020-03-12T02:31:52.696Z</updated>
     
@@ -331,17 +331,17 @@
     
     </summary>
     
-      <category term="git" scheme="https://cosmo.xin/categories/git/"/>
+      <category term="git" scheme="https://cosmos.xin/categories/git/"/>
     
     
-      <category term="git" scheme="https://cosmo.xin/tags/git/"/>
+      <category term="git" scheme="https://cosmos.xin/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>eclipse上使用git pull代码时报错</title>
-    <link href="https://cosmo.xin/post/90d925fe.html"/>
-    <id>https://cosmo.xin/post/90d925fe.html</id>
+    <link href="https://cosmos.xin/post/90d925fe.html"/>
+    <id>https://cosmos.xin/post/90d925fe.html</id>
     <published>2019-09-04T07:54:02.000Z</published>
     <updated>2020-03-12T02:31:52.695Z</updated>
     
@@ -357,21 +357,21 @@
     
     </summary>
     
-      <category term="git" scheme="https://cosmo.xin/categories/git/"/>
+      <category term="git" scheme="https://cosmos.xin/categories/git/"/>
     
-      <category term="eclipse" scheme="https://cosmo.xin/categories/git/eclipse/"/>
+      <category term="eclipse" scheme="https://cosmos.xin/categories/git/eclipse/"/>
     
     
-      <category term="git" scheme="https://cosmo.xin/tags/git/"/>
+      <category term="git" scheme="https://cosmos.xin/tags/git/"/>
     
-      <category term="eclipse" scheme="https://cosmo.xin/tags/eclipse/"/>
+      <category term="eclipse" scheme="https://cosmos.xin/tags/eclipse/"/>
     
   </entry>
   
   <entry>
     <title>Oracle使用IMP/EXP导库</title>
-    <link href="https://cosmo.xin/post/37742bda.html"/>
-    <id>https://cosmo.xin/post/37742bda.html</id>
+    <link href="https://cosmos.xin/post/37742bda.html"/>
+    <id>https://cosmos.xin/post/37742bda.html</id>
     <published>2019-09-03T08:06:16.000Z</published>
     <updated>2020-03-12T02:31:52.698Z</updated>
     
@@ -387,19 +387,19 @@
     
     </summary>
     
-      <category term="Oracle" scheme="https://cosmo.xin/categories/Oracle/"/>
+      <category term="Oracle" scheme="https://cosmos.xin/categories/Oracle/"/>
     
     
-      <category term="Oracle" scheme="https://cosmo.xin/tags/Oracle/"/>
+      <category term="Oracle" scheme="https://cosmos.xin/tags/Oracle/"/>
     
-      <category term="imp/exp" scheme="https://cosmo.xin/tags/imp-exp/"/>
+      <category term="imp/exp" scheme="https://cosmos.xin/tags/imp-exp/"/>
     
   </entry>
   
   <entry>
     <title>求两个数之和</title>
-    <link href="https://cosmo.xin/post/d445883.html"/>
-    <id>https://cosmo.xin/post/d445883.html</id>
+    <link href="https://cosmos.xin/post/d445883.html"/>
+    <id>https://cosmos.xin/post/d445883.html</id>
     <published>2019-08-25T08:22:49.000Z</published>
     <updated>2020-03-12T02:31:52.697Z</updated>
     
@@ -415,17 +415,17 @@
     
     </summary>
     
-      <category term="java面试" scheme="https://cosmo.xin/categories/java%E9%9D%A2%E8%AF%95/"/>
+      <category term="java面试" scheme="https://cosmos.xin/categories/java%E9%9D%A2%E8%AF%95/"/>
     
     
-      <category term="两数之和" scheme="https://cosmo.xin/tags/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/"/>
+      <category term="两数之和" scheme="https://cosmos.xin/tags/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/"/>
     
   </entry>
   
   <entry>
     <title>hexo执行部署项目到Git时报错10054的解决办法</title>
-    <link href="https://cosmo.xin/post/90cbd956.html"/>
-    <id>https://cosmo.xin/post/90cbd956.html</id>
+    <link href="https://cosmos.xin/post/90cbd956.html"/>
+    <id>https://cosmos.xin/post/90cbd956.html</id>
     <published>2019-08-25T08:08:12.000Z</published>
     <updated>2020-03-12T02:31:52.697Z</updated>
     
@@ -441,17 +441,17 @@
     
     </summary>
     
-      <category term="hexo问题" scheme="https://cosmo.xin/categories/hexo%E9%97%AE%E9%A2%98/"/>
+      <category term="hexo问题" scheme="https://cosmos.xin/categories/hexo%E9%97%AE%E9%A2%98/"/>
     
     
-      <category term="hexo" scheme="https://cosmo.xin/tags/hexo/"/>
+      <category term="hexo" scheme="https://cosmos.xin/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>求两个数组的中位数</title>
-    <link href="https://cosmo.xin/post/f5b8f361.html"/>
-    <id>https://cosmo.xin/post/f5b8f361.html</id>
+    <link href="https://cosmos.xin/post/f5b8f361.html"/>
+    <id>https://cosmos.xin/post/f5b8f361.html</id>
     <published>2019-08-25T07:52:08.000Z</published>
     <updated>2020-03-12T02:31:52.694Z</updated>
     
@@ -467,17 +467,17 @@
     
     </summary>
     
-      <category term="java面试" scheme="https://cosmo.xin/categories/java%E9%9D%A2%E8%AF%95/"/>
+      <category term="java面试" scheme="https://cosmos.xin/categories/java%E9%9D%A2%E8%AF%95/"/>
     
     
-      <category term="求两个数组的中位数" scheme="https://cosmo.xin/tags/%E6%B1%82%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0/"/>
+      <category term="求两个数组的中位数" scheme="https://cosmos.xin/tags/%E6%B1%82%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0/"/>
     
   </entry>
   
   <entry>
     <title>PLSQL无法连接Oracle的系列问题解决方法</title>
-    <link href="https://cosmo.xin/post/8b21091e.html"/>
-    <id>https://cosmo.xin/post/8b21091e.html</id>
+    <link href="https://cosmos.xin/post/8b21091e.html"/>
+    <id>https://cosmos.xin/post/8b21091e.html</id>
     <published>2019-03-20T03:08:41.000Z</published>
     <updated>2020-03-12T02:31:52.699Z</updated>
     
@@ -493,17 +493,17 @@
     
     </summary>
     
-      <category term="Oracle" scheme="https://cosmo.xin/categories/Oracle/"/>
+      <category term="Oracle" scheme="https://cosmos.xin/categories/Oracle/"/>
     
     
-      <category term="plsql连接Oracle" scheme="https://cosmo.xin/tags/plsql%E8%BF%9E%E6%8E%A5Oracle/"/>
+      <category term="plsql连接Oracle" scheme="https://cosmos.xin/tags/plsql%E8%BF%9E%E6%8E%A5Oracle/"/>
     
   </entry>
   
   <entry>
     <title>一些实用的工具书</title>
-    <link href="https://cosmo.xin/post/34d81868.html"/>
-    <id>https://cosmo.xin/post/34d81868.html</id>
+    <link href="https://cosmos.xin/post/34d81868.html"/>
+    <id>https://cosmos.xin/post/34d81868.html</id>
     <published>2019-03-06T03:02:50.000Z</published>
     <updated>2020-03-12T02:31:52.699Z</updated>
     
@@ -519,19 +519,19 @@
     
     </summary>
     
-      <category term="书籍" scheme="https://cosmo.xin/categories/%E4%B9%A6%E7%B1%8D/"/>
+      <category term="书籍" scheme="https://cosmos.xin/categories/%E4%B9%A6%E7%B1%8D/"/>
     
     
-      <category term="书籍" scheme="https://cosmo.xin/tags/%E4%B9%A6%E7%B1%8D/"/>
+      <category term="书籍" scheme="https://cosmos.xin/tags/%E4%B9%A6%E7%B1%8D/"/>
     
-      <category term="IT工具书" scheme="https://cosmo.xin/tags/IT%E5%B7%A5%E5%85%B7%E4%B9%A6/"/>
+      <category term="IT工具书" scheme="https://cosmos.xin/tags/IT%E5%B7%A5%E5%85%B7%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>Oracle修改字符集</title>
-    <link href="https://cosmo.xin/post/c8f49c48.html"/>
-    <id>https://cosmo.xin/post/c8f49c48.html</id>
+    <link href="https://cosmos.xin/post/c8f49c48.html"/>
+    <id>https://cosmos.xin/post/c8f49c48.html</id>
     <published>2019-03-04T07:06:25.000Z</published>
     <updated>2020-03-12T02:31:52.691Z</updated>
     
@@ -548,12 +548,12 @@
     
     </summary>
     
-      <category term="Oracle" scheme="https://cosmo.xin/categories/Oracle/"/>
+      <category term="Oracle" scheme="https://cosmos.xin/categories/Oracle/"/>
     
     
-      <category term="Oracle" scheme="https://cosmo.xin/tags/Oracle/"/>
+      <category term="Oracle" scheme="https://cosmos.xin/tags/Oracle/"/>
     
-      <category term="字符集修改" scheme="https://cosmo.xin/tags/%E5%AD%97%E7%AC%A6%E9%9B%86%E4%BF%AE%E6%94%B9/"/>
+      <category term="字符集修改" scheme="https://cosmos.xin/tags/%E5%AD%97%E7%AC%A6%E9%9B%86%E4%BF%AE%E6%94%B9/"/>
     
   </entry>
   
